@@ -1,34 +1,25 @@
  <!-- ═══════════════════════════════════════════════════════════════
-     KARUN H G | CYBERSECURITY PROFILE
-     Dark Cyber Operations | Red Team × Blue Team × AI Security
-     ═══════════════════════════════════════════════════════════════ -->
+  KARUN H G | CYBERSECURITY PROFILE
+  DARK OPERATIONS CONSOLE • RED TEAM × BLUE TEAM × AI SECURITY
+═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img src="./assets/cyber-banner.png" width="100%" alt="Karun H G Cybersecurity Banner" />
+<img src="./assets/cyber-banner.png" width="100%" alt="Karun H G — Cybersecurity, Software Development and AI Security" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3500&pause=1000&color=00FF9C&center=true&vCenter=true&width=750&height=45&lines=%24+whoami+%E2%86%92+Karun+H+G;%24+mission+%E2%86%92+Secure.+Investigate.+Build.;%24+mode+%E2%86%92+Red+Team+%E2%87%84+Blue+Team;%24+focus+%E2%86%92+Cybersecurity+%7C+AI+Security" alt="Terminal typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=700&color=00FF9C&center=true&vCenter=true&width=820&height=45&lines=root%40karun-lab%3A~%24+whoami;Karun+H+G+%7C+MCA+Student;root%40karun-lab%3A~%24+cat+mission.txt;Observe.+Investigate.+Validate.+Secure.;root%40karun-lab%3A~%24+echo+%24FOCUS;Red+Team+%7C+Blue+Team+%7C+AI+Security" alt="Animated terminal typing" />
 
 <br/>
 
-![Status](https://img.shields.io/badge/STATUS-LEARNING_%26_BUILDING-00ff9c?style=for-the-badge&labelColor=080D12)
-![Focus](https://img.shields.io/badge/FOCUS-SOC_%7C_DFIR_%7C_AI_SECURITY-00ff9c?style=for-the-badge&labelColor=080D12)
-![Location](https://img.shields.io/badge/BASE-BENGALURU%2C_INDIA-00ff9c?style=for-the-badge&labelColor=080D12)
+![STATUS](https://img.shields.io/badge/STATUS-LEARNING_%26_BUILDING-00ff9c?style=for-the-badge&labelColor=080D12)
+![FOCUS](https://img.shields.io/badge/FOCUS-SOC_%7C_DFIR_%7C_AI_SECURITY-00ff9c?style=for-the-badge&labelColor=080D12)
+![BASE](https://img.shields.io/badge/BASE-BENGALURU%2C_INDIA-00ff9c?style=for-the-badge&labelColor=080D12)
 
 <br/>
 
-`[ RED TEAM ]` &nbsp; × &nbsp; `[ BLUE TEAM ]` &nbsp; × &nbsp; `[ AI SECURITY ]`
-
-<br/>
-
-[ABOUT](#-system-identity) &nbsp; • &nbsp;
-[RED TEAM](#-red-team--offensive-security) &nbsp; • &nbsp;
-[BLUE TEAM](#-blue-team--defensive-security) &nbsp; • &nbsp;
-[AI SECURITY](#-ai-security) &nbsp; • &nbsp;
-[PROJECTS](#-featured-projects) &nbsp; • &nbsp;
-[CONTACT](#-connect)
+[⌁ SYSTEM](#-01--system-identity) • [🔴 RED TEAM](#-02--red-team) • [🔵 BLUE TEAM](#-03--blue-team) • [🤖 AI SECURITY](#-04--ai-security) • [PROJECTS](#-05--featured-projects) • [STACK](#-06--technology-stack) • [ROADMAP](#-07--research-roadmap) • [CONTACT](#-09--connect)
 
 </div>
 
@@ -38,90 +29,100 @@
 
 <div align="center">
 
-### `root@karun-lab:~$ whoami`
+`root@karun-lab:~$ ./initialize_profile.sh`
 
 </div>
 
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="62%" valign="top">
 
-**Karun H G**
+### `TERMINAL // profile.json`
 
-MCA Student | Cybersecurity Learner | Software Developer | Aspiring AI Security Engineer
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=1800&pause=500&color=00FF9C&vCenter=true&width=520&height=28&lines=root%40karun-lab%3A~%24+cat+profile.json;Loading+identity...;Access+granted.+Welcome%2C+Karun." alt="Terminal command animation" />
 
-I build software, explore security vulnerabilities in controlled environments, and study how systems can be protected against real-world threats.
-
-My interests span offensive security, defensive security, network forensics, cryptography and AI security.
-
-**Current mission:** Learn through practical experimentation, build meaningful security projects, and document every discovery.
+```json
+{
+  "name": "Karun H G",
+  "education": "MCA Student",
+  "roles": [
+    "Cybersecurity Learner",
+    "Software Developer",
+    "Aspiring AI Security Engineer"
+  ],
+  "focus": [
+    "SOC & DFIR",
+    "Network Forensics",
+    "AI Security"
+  ],
+  "learning": [
+    "Threat Detection",
+    "DNS Recon",
+    "AI Red Teaming"
+  ],
+  "building": [
+    "Post-Quantum Secure File Vault",
+    "Bayora"
+  ],
+  "workflow": "Observe -> Investigate -> Validate -> Document"
+}
+```
 
 </td>
-<td width="45%" valign="top">
+<td width="38%" valign="top">
 
-### `system.info`
+### `SYSTEM.STATUS`
 
-```yaml
-name: Karun H G
-education: MCA Student
+![Environment](https://img.shields.io/badge/ENVIRONMENT-KALI_LINUX-00ff9c?style=flat-square&labelColor=080D12)
+![Mode](https://img.shields.io/badge/MODE-LEARNING-00ff9c?style=flat-square&labelColor=080D12)
 
-environment:
-  - Kali Linux
-  - Isolated Lab Environments
+**> kernel** : Kali Linux
 
-currently_learning:
-  - SOC Operations
-  - Network Forensics
-  - DNS Reconnaissance
-  - AI Red Teaming
+**> domains** : Cybersecurity
 
-currently_building:
-  - Post-Quantum Secure File Vault
-  - Bayora
+**> interests** : Red / Blue / AI
 
-workflow:
-  - Observe
-  - Investigate
-  - Validate
-  - Document
-  - Improve
+**> workflow** : Evidence-led
 
-open_to:
-  - Internships
-  - Collaboration
-  - Mentorship
-  - CTF Teams
-```
+**> availability** : Open to opportunities
+
+---
+
+### `OPERATING PRINCIPLE`
+
+Understand how systems fail. Learn how attacks work. Build better defenses.
 
 </td>
 </tr>
 </table>
 
-> **Operating principle:** Understand how systems fail. Learn how attacks work. Build better defenses. All offensive testing is performed only on systems I own or have explicit permission to test.
+I build software, explore security vulnerabilities in controlled environments, and study how systems can be protected against real-world threats. My interests span offensive security, defensive security, network forensics, cryptography and AI security.
+
+> **Ethical boundary:** All offensive testing is performed only on systems I own or have explicit permission to test.
 
 ---
 
-## `02 // RED TEAM — OFFENSIVE SECURITY`
-
-<text></text>
+## `02 // RED TEAM`
 
 <div align="center">
 
-<kbd> RECONNAISSANCE </kbd> &nbsp; <kbd> ENUMERATION </kbd> &nbsp; <kbd> VULNERABILITY ANALYSIS </kbd>
+![Red Team](https://img.shields.io/badge/RED_TEAM-OFFENSIVE_SECURITY-ff5252?style=for-the-badge&labelColor=16090B)
+![Recon](https://img.shields.io/badge/RECON-ENUMERATION-ff7777?style=flat-square&labelColor=16090B)
+![Validation](https://img.shields.io/badge/VALIDATION-LAB_ONLY-ff7777?style=flat-square&labelColor=16090B)
+
+*Think like an attacker. Test ethically. Document evidence.*
 
 </div>
-
-*Understanding the attacker's mindset to build stronger defenses.*
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔴 Attack Surface Exploration
+### 🎯 ATTACK SURFACE
 
-- Reconnaissance and enumeration
+- Reconnaissance & enumeration
 - DNS reconnaissance
-- Network scanning and service discovery
+- Network scanning & service discovery
 - Web application security fundamentals
 - Vulnerability assessment
 - Adversarial AI testing
@@ -129,12 +130,12 @@ open_to:
 </td>
 <td width="50%" valign="top">
 
-### 🧰 Security Toolkit
+### 🧰 TOOLKIT // LAB USE
 
 - `Nmap`
 - `Burp Suite`
 - `OWASP ZAP`
-- `Metasploit` — lab use
+- `Metasploit`
 - `gobuster` / `ffuf`
 - `dig` / `nslookup`
 - `Kali Linux`
@@ -144,50 +145,52 @@ open_to:
 </table>
 
 <details>
-<summary><b>🔓 Explore my ethical hacking methodology</b></summary>
+<summary><b>▸ EXPAND // Ethical hacking methodology</b></summary>
 
-| Phase | Activity |
+| Stage | Practice |
 |:--|:--|
 | 01 — Recon | Information gathering and DNS discovery |
-| 02 — Scanning | Port and service enumeration |
-| 03 — Analysis | Identifying potential security weaknesses |
-| 04 — Validation | Safely verifying findings in a lab |
-| 05 — Reporting | Evidence, impact and remediation |
+| 02 — Scan | Port and service enumeration |
+| 03 — Analyze | Identify potential security weaknesses |
+| 04 — Validate | Verify safely in an authorized lab |
+| 05 — Report | Evidence, impact and remediation |
 
-**Ground rules:** Authorized targets only · Controlled environments · Responsible disclosure · Evidence-based reporting.
+**Ground rules:** Authorized targets · Controlled environments · Responsible disclosure · Evidence-based reporting.
 
 </details>
 
 ---
 
-## `03 // BLUE TEAM — DEFENSIVE SECURITY`
+## `03 // BLUE TEAM`
 
 <div align="center">
 
-<kbd> MONITOR </kbd> &nbsp; <kbd> DETECT </kbd> &nbsp; <kbd> INVESTIGATE </kbd> &nbsp; <kbd> RESPOND </kbd>
-
-</div>
+![Blue Team](https://img.shields.io/badge/BLUE_TEAM-DEFENSIVE_SECURITY-39a9ff?style=for-the-badge&labelColor=071321)
+![Monitor](https://img.shields.io/badge/MONITOR-DETECT-55baff?style=flat-square&labelColor=071321)
+![Respond](https://img.shields.io/badge/INVESTIGATE-RESPOND-55baff?style=flat-square&labelColor=071321)
 
 *Detect. Investigate. Respond. Harden.*
+
+</div>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔵 Defensive Focus
+### 🔎 DEFENSIVE OPERATIONS
 
-- SOC operations and alert triage
+- SOC operations & alert triage
 - Network traffic analysis
 - PCAP investigation
 - TLS / SNI / QUIC inspection
-- Threat detection and log analysis
+- Threat detection & log analysis
 - Incident investigation
 - Secure system design
 
 </td>
 <td width="50%" valign="top">
 
-### 🧰 Defensive Toolkit
+### 🧰 DEFENSIVE TOOLKIT
 
 - `Wireshark`
 - `TShark`
@@ -202,43 +205,40 @@ open_to:
 </table>
 
 <details>
-<summary><b>📡 Explore a sample network investigation workflow</b></summary>
+<summary><b>▸ EXPAND // Sample network investigation</b></summary>
 
 ```bash
-# 01 - Protocol overview
+# 01 — Protocol overview
 tshark -r capture.pcap -q -z io,phs
 
-# 02 - Extract TLS Server Name Indication
-tshark -r capture.pcap \
--Y "tls.handshake.type == 1" \
--T fields -e ip.src \
--e tls.handshake.extensions_server_name
+# 02 — Extract TLS SNI
+tshark -r capture.pcap -Y "tls.handshake.type == 1" \
+  -T fields -e ip.src -e tls.handshake.extensions_server_name
 
-# 03 - Review DNS queries
-tshark -r capture.pcap \
--Y "dns.flags.response == 0" \
--T fields -e frame.time -e ip.src -e dns.qry.name
+# 03 — Review DNS queries
+tshark -r capture.pcap -Y "dns.flags.response == 0" \
+  -T fields -e frame.time -e ip.src -e dns.qry.name
 
-# 04 - Identify QUIC traffic
+# 04 — Identify QUIC traffic
 tshark -r capture.pcap -Y "quic"
 ```
 
-**Investigation workflow:** Observe → Investigate → Validate → Document → Improve.
+**Investigation loop:** Observe → Investigate → Validate → Document → Improve.
 
 </details>
 
 <details>
-<summary><b>🔁 Red Team ⇄ Blue Team security cycle</b></summary>
+<summary><b>▸ EXPAND // Red Team ⇄ Blue Team feedback loop</b></summary>
 
 ```mermaid
 flowchart LR
-    A["🔴 Attack Simulation"] --> B["📝 Evidence Collection"]
+    A["🔴 Attack Simulation"] --> B["Evidence & Telemetry"]
     B --> C["🔵 Detection & Analysis"]
     C --> D["🛡️ Hardening & Response"]
     D --> A
 ```
 
-Every offensive experiment can become a defensive lesson.
+Every ethical offensive experiment can become a defensive lesson.
 
 </details>
 
@@ -248,71 +248,71 @@ Every offensive experiment can become a defensive lesson.
 
 <div align="center">
 
-### 🤖 Exploring the security of intelligent systems
+![AI Security](https://img.shields.io/badge/AI_SECURITY-RESEARCH_AND_EVALUATION-00d6a3?style=for-the-badge&labelColor=071713)
 
-`AI RED TEAMING` &nbsp; × &nbsp; `AI DEFENSE` &nbsp; × &nbsp; `SECURE AI DESIGN`
+**Exploring how intelligent systems fail — and how to make them safer.**
 
 </div>
 
-| Research Area | Exploration |
+| Research track | Exploration |
 |:--|:--|
-| 🔴 Adversarial Testing | Prompt injection, jailbreak-style probing and robustness testing in controlled settings |
-| 🔵 Defensive Evaluation | Guardrails, evaluation pipelines and safety scoring |
-| 🛡️ Secure AI Design | Separation of attack and defense layers, least privilege for AI tools |
-| 🧪 AI Safety | Understanding failure modes and improving system reliability |
+| 🔴 Adversarial testing | Prompt injection, jailbreak-style probing and robustness checks in controlled settings |
+| 🔵 Defensive evaluation | Guardrails, evaluation pipelines and safety scoring |
+| 🛡️ Secure AI design | Separation of attack and defense layers; least privilege for AI tools |
+| 🧪 AI safety | Understanding failure modes and improving reliability |
 
 ---
 
 ## `05 // FEATURED PROJECTS`
 
-*Building practical solutions through software development and security research.*
+*Practical builds at the intersection of software, security and research.*
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔐 Post-Quantum Secure File Vault
+### 🔐 POST-QUANTUM SECURE FILE VAULT
 
 Security-focused file storage exploring post-quantum cryptography concepts.
 
-![Cryptography](https://img.shields.io/badge/CRYPTOGRAPHY-00ff9c?style=flat-square&labelColor=080D12)
+![Crypto](https://img.shields.io/badge/CRYPTOGRAPHY-00ff9c?style=flat-square&labelColor=080D12)
 ![PQC](https://img.shields.io/badge/POST--QUANTUM-00ff9c?style=flat-square&labelColor=080D12)
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ Bayora — AI Safety Testing
+### 🛡️ BAYORA — AI SAFETY TESTING
 
-Red Team / Blue Team infrastructure that separates attack attempts from defensive evaluation of AI systems.
+Red Team / Blue Team infrastructure separating attack attempts from defensive evaluation of AI systems.
 
-[![Repository](https://img.shields.io/badge/VIEW_REPOSITORY-Bayora__Sec-00ff9c?style=flat-square&logo=github&logoColor=white&labelColor=080D12)](https://github.com/Karunpoojari7/Bayora_Sec)
+[![Open repository](https://img.shields.io/badge/OPEN_REPOSITORY-↗-00ff9c?style=flat-square&labelColor=080D12)](https://github.com/Karunpoojari7/Bayora_Sec)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🌐 SOC Analyst Journey
+### 🌐 SOC ANALYST JOURNEY
 
-A practical learning journey covering packet analysis, command references, observations and evidence-based reports.
+Packet analysis, command references, observations and evidence-based reports.
 
-[![Repository](https://img.shields.io/badge/VIEW_REPOSITORY-SOC--Analyst--Journey-00ff9c?style=flat-square&logo=github&logoColor=white&labelColor=080D12)](https://github.com/Karunpoojari7/Soc-Analyst-Journey)
+[![Open repository](https://img.shields.io/badge/OPEN_REPOSITORY-↗-00ff9c?style=flat-square&labelColor=080D12)](https://github.com/Karunpoojari7/Soc-Analyst-Journey)
 
 </td>
 <td width="50%" valign="top">
 
-### 📊 Insight AI
+### 📊 INSIGHT AI
 
 AI-powered analytics chatbot and dashboard concept for exploring data in plain language.
 
-![AI Analytics](https://img.shields.io/badge/AI_ANALYTICS-00ff9c?style=flat-square&labelColor=080D12)
+![Analytics](https://img.shields.io/badge/AI_ANALYTICS-00ff9c?style=flat-square&labelColor=080D12)
 
 </td>
 </tr>
 <tr>
 <td colspan="2" valign="top">
 
-### 🎓 GMU Connect 2.0
+### 🎓 GMU CONNECT 2.0
 
 Student-focused mobile app initiative with academic APIs, authentication, and a React Native + TypeScript foundation.
 
@@ -320,82 +320,68 @@ Student-focused mobile app initiative with academic APIs, authentication, and a 
 </tr>
 </table>
 
-> Project status varies: some projects are ongoing or exploratory. Visit their repositories for implementation details.
+<sub>Some projects are ongoing or exploratory. Repository links are included where available; see each project for implementation details.</sub>
 
 ---
 
 ## `06 // TECHNOLOGY STACK`
 
-<details open>
-<summary><b>💻 Programming Languages</b></summary>
-<br/>
+*An open stack — grouped by discipline, not boxed into a badge wall.*
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+### ⌁ LANGUAGES
 
-</details>
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-<details open>
-<summary><b>🌐 Web Development & Backend</b></summary>
-<br/>
+### ⌁ WEB & BACKEND
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=next.js&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-333333?style=flat-square&logo=flask&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-</details>
+### ⌁ DATA, DEVOPS & PLATFORMS
 
-<details open>
-<summary><b>🗄️ Databases, DevOps & Platforms</b></summary>
-<br/>
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+### ⌁ SECURITY TOOLING
 
-</details>
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square&logo=nmap&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP-111111?style=flat-square&logo=owasp&logoColor=white)
 
-<details open>
-<summary><b>🔐 Cybersecurity Toolkit</b></summary>
-<br/>
-
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white)
-
-</details>
-
-<sub>A selected list of technologies I have worked with or am actively learning, not a claim of expert-level proficiency in every tool.</sub>
+<sub>Technologies listed are tools I have worked with or am actively learning; this is not a claim of expert-level proficiency in every item.</sub>
 
 ---
 
-## `07 // SECURITY RESEARCH ROADMAP`
+## `07 // RESEARCH ROADMAP`
 
-*Learning through practical exploration and continuous improvement.*
+*Progress is tracked through practical work, not just checkboxes.*
 
-| Status | Research / Learning Area |
+| State | Track |
 |:--:|:--|
-| ✅ | Network traffic analysis with TShark & PCAP |
-| ✅ | TLS / SNI / QUIC inspection basics |
-| ✅ | DNS reconnaissance & Linux fundamentals |
-| 🔄 | SOC detection engineering & SIEM labs |
-| 🔄 | Web application security — OWASP Top 10 |
-| 🔄 | CTF practice — TryHackMe / Hack The Box |
-| 🔄 | Security certifications — Security+, BTL1, eJPT |
-| 🔄 | AI red-teaming & LLM security research |
+| 🟢 Done | Network traffic analysis with TShark & PCAP |
+| 🟢 Done | TLS / SNI / QUIC inspection basics |
+| 🟢 Done | DNS reconnaissance & Linux fundamentals |
+| 🔵 In progress | SOC detection engineering & SIEM labs |
+| 🔵 In progress | Web application security — OWASP Top 10 |
+| 🔵 In progress | CTF practice — TryHackMe / Hack The Box |
+| ⚪ Planned | Security certifications — Security+, BTL1, eJPT |
+| ⚪ Planned | AI red-teaming & LLM security research |
 
 ---
 
@@ -409,7 +395,7 @@ Student-focused mobile app initiative with academic APIs, authentication, and a 
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Karunpoojari7&theme=dark&background=080D12&ring=00ff9c&fire=ff4b4b&currStreakLabel=00ff9c&border=164B3C" alt="GitHub contribution streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Karunpoojari7&theme=dark&background=080D12&ring=00ff9c&fire=ff5252&currStreakLabel=00ff9c&border=164B3C" alt="GitHub contribution streak" />
 
 </div>
 
@@ -419,9 +405,9 @@ Student-focused mobile app initiative with academic APIs, authentication, and a 
 
 <div align="center">
 
-### `root@karun-lab:~$ ./connect.sh`
+`root@karun-lab:~$ ./connect.sh`
 
-Open to learning, collaboration, mentorship and cybersecurity opportunities.
+**Open to learning, collaboration, mentorship and cybersecurity opportunities.**
 
 <br/>
 
@@ -436,8 +422,8 @@ karun@kali-lab:~$ echo "Learning through practice."
 karun@kali-lab:~$ echo "Designing with security in mind."
 ```
 
-**OBSERVE. INVESTIGATE. VALIDATE. SECURE.**
+**OBSERVE  /  INVESTIGATE  /  VALIDATE  /  SECURE**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080D12,50:003b2a,100:00ff9c&height=110&section=footer" width="100%" alt="Cyber green footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080D12,50:003b2a,100:00ff9c&height=100&section=footer" width="100%" alt="Neon green footer" />
 
 </div>
