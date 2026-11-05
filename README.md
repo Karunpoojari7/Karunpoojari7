@@ -28,7 +28,7 @@
 
 `root@karun-lab:~$ ./initialize_profile.sh`
 
-<img src="./assets/system-dashboard.png" width="100%" alt="Karun H G System Identity Terminal Dashboard"/>
+<img src="./assets/Neon Cybersecurity Tri-Panel Banner.png" width="100%" alt="Karun H G System Identity Terminal Dashboard"/>
 
 </div>
 
@@ -48,7 +48,7 @@ My interests span offensive security, defensive security, network forensics, app
 
 <div align="center">
 
-<img src="./assets/security-panels.png" width="100%" alt="Red Team Blue Team and AI Security dashboard"/>
+<img src="./assets/Neon System Identity Dashboard.png" width="100%" alt="Red Team Blue Team and AI Security dashboard"/>
 
 </div>
 
