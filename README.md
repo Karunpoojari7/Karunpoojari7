@@ -49,7 +49,36 @@
 </div>
 
 ---
+## `02 // INSIDE MY SECURITY LAB`
 
+<div align="center">
+
+<img src="./assets/lab-overview.svg" width="100%" alt="Karun's Red Team, Blue Team and AI Security lab overview"/>
+
+</div>
+
+<details>
+<summary><b>📡 Explore a sample network investigation (TShark)</b></summary>
+
+```bash
+# Protocol hierarchy
+tshark -r capture.pcap -q -z io,phs
+
+# Extract TLS Server Name Indication
+tshark -r capture.pcap -Y "tls.handshake.type == 1" \
+  -T fields -e ip.src -e tls.handshake.extensions_server_name
+
+# Review DNS queries
+tshark -r capture.pcap -Y "dns.flags.response == 0" \
+  -T fields -e frame.time -e ip.src -e dns.qry.name
+
+# Identify QUIC traffic
+tshark -r capture.pcap -Y "quic"
+```
+
+</details>
+
+---
 
 ## `03 // Featured projects`
 
