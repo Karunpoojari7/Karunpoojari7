@@ -178,8 +178,7 @@ Where I am and what comes next, grouped by progress.
 
 </div>
 
-<details open>
-<summary><b>📡&nbsp; LIVE REPO PULSE</b> &nbsp;·&nbsp; <sub>updates the moment I push</sub></summary>
+
 <br/>
 
 | Repository | Main language | Last commit |
