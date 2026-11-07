@@ -79,144 +79,80 @@ tshark -r capture.pcap -Y "quic"
 ---
 
 
-## `03 // Featured Projects`
+## `03 // Featured projects`
 
-<p><i>Selected builds across cybersecurity, AI and software engineering.</i></p>
+<p><i>Selected work across cybersecurity, AI and software engineering. Select a card to open its repository, or expand the details below it.</i></p>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-<p><strong><a href="https://github.com/Karunpoojari7/Bayora_Sec">01 / BAYORA ↗</a></strong> &nbsp; <code>AI SECURITY</code></p>
-
-Zero-trust infrastructure for controlled AI safety testing.
-
-<sub>FastAPI · React · Docker</sub>
-
+<a href="https://github.com/Karunpoojari7/Bayora_Sec"><img src="./assets/project-cards/bayora.svg" width="100%" alt="BAYORA project card"/></a>
 <details>
-<summary>Project details</summary>
+<summary><b>Technical details</b> · BAYORA</summary>
 
-- Red Team sandbox
-- Target LLM isolation
-- Blue Team defensive environment
-- Security evaluation and evidence integrity
+Isolated Red Team, Target LLM and Blue Team environments, with an evidence-focused security evaluation workflow.
 
-<a href="https://github.com/Karunpoojari7/Bayora_Sec">View source code →</a>
-
+<a href="https://github.com/Karunpoojari7/Bayora_Sec">Open repository ↗</a>
 </details>
-
 </td>
 <td width="50%" valign="top">
-
-<p><strong><a href="https://github.com/Karunpoojari7/NETWATCH">02 / NETWATCH.AI ↗</a></strong> &nbsp; <code>NETWORK SECURITY</code></p>
-
-Intelligent network monitoring with anomaly detection.
-
-<sub>Python · FastAPI · React · PostgreSQL</sub>
-
+<a href="https://github.com/Karunpoojari7/NETWATCH"><img src="./assets/project-cards/netwatch.svg" width="100%" alt="NETWATCH.AI project card"/></a>
 <details>
-<summary>Project details</summary>
+<summary><b>Technical details</b> · NETWATCH.AI</summary>
 
-- SNMP monitoring
-- ML anomaly detection
-- Real-time dashboard
-- Network traffic visibility
+Full-stack monitoring platform with a real-time dashboard, traffic visibility and anomaly detection components.
 
-<a href="https://github.com/Karunpoojari7/NETWATCH">View source code →</a>
-
+<a href="https://github.com/Karunpoojari7/NETWATCH">Open repository ↗</a>
 </details>
-
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
-
-<p><strong><a href="https://github.com/Karunpoojari7/Soc-Analyst-Journey">03 / SOC ANALYST JOURNEY ↗</a></strong> &nbsp; <code>CYBERSECURITY</code></p>
-
-Practical SOC learning, packet analysis and investigation documentation.
-
-<sub>TShark · PCAP · PowerShell</sub>
-
+<a href="https://github.com/Karunpoojari7/Soc-Analyst-Journey"><img src="./assets/project-cards/soc-analyst-journey.svg" width="100%" alt="SOC ANALYST JOURNEY project card"/></a>
 <details>
-<summary>Project details</summary>
+<summary><b>Technical details</b> · SOC ANALYST JOURNEY</summary>
 
-- Network traffic analysis
-- DNS and TLS investigation
-- SIEM event correlation
-- Sanitized investigation reports
+Documented learning labs covering packet inspection, DNS and TLS analysis, SIEM practice and sanitized evidence.
 
-<a href="https://github.com/Karunpoojari7/Soc-Analyst-Journey">View source code →</a>
-
+<a href="https://github.com/Karunpoojari7/Soc-Analyst-Journey">Open repository ↗</a>
 </details>
-
 </td>
 <td width="50%" valign="top">
-
-<p><strong><a href="https://github.com/Karunpoojari7/QuantumValut">04 / CLAUDEVAULT ↗</a></strong> &nbsp; <code>FULL-STACK</code></p>
-
-Full-stack application with a FastAPI backend and React frontend.
-
-<sub>FastAPI · React</sub>
-
+<a href="https://github.com/Karunpoojari7/QuantumValut"><img src="./assets/project-cards/claudevault.svg" width="100%" alt="CLAUDEVAULT project card"/></a>
 <details>
-<summary>Project details</summary>
+<summary><b>Technical details</b> · CLAUDEVAULT</summary>
 
-Explore the application architecture, backend API and frontend implementation.
+The repository README identifies the application as ClaudeVault. The repository name is QuantumValut; the README does not currently substantiate a post-quantum cryptography claim.
 
-<a href="https://github.com/Karunpoojari7/QuantumValut">View source code →</a>
-
+<a href="https://github.com/Karunpoojari7/QuantumValut">Open repository ↗</a>
 </details>
-
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
-
-<p><strong><a href="https://github.com/Karunpoojari7/Resume_Gap_AI">05 / RESUME GAP AI ↗</a></strong> &nbsp; <code>ARTIFICIAL INTELLIGENCE</code></p>
-
-AI-powered resume and skill-gap analysis with optimization reports.
-
-<sub>AI · Resume Analysis · Skill Intelligence</sub>
-
+<a href="https://github.com/Karunpoojari7/Resume_Gap_AI"><img src="./assets/project-cards/resume-gap-ai.svg" width="100%" alt="RESUME GAP AI project card"/></a>
 <details>
-<summary>Project details</summary>
+<summary><b>Technical details</b> · RESUME GAP AI</summary>
 
-Explore resume analysis and professional skill-gap reporting.
+An AI-powered SkillForge application designed to analyze resume gaps and produce professional optimization reports.
 
-<a href="https://github.com/Karunpoojari7/Resume_Gap_AI">View source code →</a>
-
+<a href="https://github.com/Karunpoojari7/Resume_Gap_AI">Open repository ↗</a>
 </details>
-
 </td>
 <td width="50%" valign="top">
-
-<p><strong><a href="https://github.com/Karunpoojari7/GMU-CONNECT-APP">06 / GMU CONNECT 2.0 ↗</a></strong> &nbsp; <code>MOBILE APP</code></p>
-
-Student ERP prototype with academic features and mobile access.
-
-<sub>React Native · Spring Boot</sub>
-
+<a href="https://github.com/Karunpoojari7/GMU-CONNECT-APP"><img src="./assets/project-cards/gmu-connect.svg" width="100%" alt="GMU CONNECT 2.0 project card"/></a>
 <details>
-<summary>Project details</summary>
+<summary><b>Technical details</b> · GMU CONNECT 2.0</summary>
 
-- Student mobile application
-- Admin portal
-- Academic management
-- Backend API architecture
+A student ERP prototype with a mobile application, admin portal and backend API architecture. It is a demonstration project, not a live university ERP integration.
 
-<a href="https://github.com/Karunpoojari7/GMU-CONNECT-APP">View source code →</a>
-
+<a href="https://github.com/Karunpoojari7/GMU-CONNECT-APP">Open repository ↗</a>
 </details>
-
 </td>
 </tr>
 </table>
 
-<p align="center">
-<sub>Explore the projects to see their source code, documentation and development progress.</sub>
-</p>
+<sub>Project descriptions reflect the current repository documentation. The card artwork is static; repository links and expandable details are native GitHub README interactions.</sub>
 
 
 ## `04 // My technology toolkit`
