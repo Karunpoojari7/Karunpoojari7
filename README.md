@@ -78,90 +78,146 @@ tshark -r capture.pcap -Y "quic"
 
 ---
 
-## 03 // Featured Projects
 
-<p><i>Building practical solutions across cybersecurity, AI and software engineering.</i></p>
+## `03 // Featured Projects`
+
+<p><i>Selected builds across cybersecurity, AI and software engineering.</i></p>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<p><strong><a href="https://github.com/Karunpoojari7/Bayora_Sec">01 / BAYORA ↗</a></strong> &nbsp; <code>AI SECURITY</code></p>
+
+Zero-trust infrastructure for controlled AI safety testing.
+
+<sub>FastAPI · React · Docker</sub>
 
 <details>
-<summary><b>01 · BAYORA</b> &nbsp; <code>AI SECURITY</code> &nbsp; Zero-Trust Infrastructure</summary>
+<summary>Project details</summary>
 
-**Overview**
+- Red Team sandbox
+- Target LLM isolation
+- Blue Team defensive environment
+- Security evaluation and evidence integrity
 
-Controlled AI security testing with isolated Red Team, Target LLM and Blue Team environments.
-
-**Technology:** `FastAPI` `React` `Docker`
-
-**Focus:** AI Security · Zero Trust · Security Testing
-
-[Explore Repository →](YOUR_BAYORA_REPO_URL)
+<a href="https://github.com/Karunpoojari7/Bayora_Sec">View source code →</a>
 
 </details>
 
+</td>
+<td width="50%" valign="top">
+
+<p><strong><a href="https://github.com/Karunpoojari7/NETWATCH">02 / NETWATCH.AI ↗</a></strong> &nbsp; <code>NETWORK SECURITY</code></p>
+
+Intelligent network monitoring with anomaly detection.
+
+<sub>Python · FastAPI · React · PostgreSQL</sub>
+
 <details>
-<summary><b>02 · NETWATCH.AI</b> &nbsp; <code>NETWORK SECURITY</code> &nbsp; Intelligent Monitoring</summary>
+<summary>Project details</summary>
 
-**Overview**
+- SNMP monitoring
+- ML anomaly detection
+- Real-time dashboard
+- Network traffic visibility
 
-Network monitoring with SNMP polling, ML anomaly detection and real-time visualization.
-
-**Technology:** `Python` `FastAPI` `React` `PostgreSQL`
-
-[Explore Repository →](YOUR_NETWATCH_REPO_URL)
+<a href="https://github.com/Karunpoojari7/NETWATCH">View source code →</a>
 
 </details>
 
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<p><strong><a href="https://github.com/Karunpoojari7/Soc-Analyst-Journey">03 / SOC ANALYST JOURNEY ↗</a></strong> &nbsp; <code>CYBERSECURITY</code></p>
+
+Practical SOC learning, packet analysis and investigation documentation.
+
+<sub>TShark · PCAP · PowerShell</sub>
+
 <details>
-<summary><b>03 · SOC ANALYST JOURNEY</b> &nbsp; <code>CYBERSECURITY</code> &nbsp; Network Forensics</summary>
+<summary>Project details</summary>
 
-**Overview**
+- Network traffic analysis
+- DNS and TLS investigation
+- SIEM event correlation
+- Sanitized investigation reports
 
-Practical SOC training featuring packet analysis, investigation reports and security labs.
-
-**Technology:** `TShark` `PCAP` `PowerShell`
-
-[Explore Repository →](https://github.com/Karunpoojari7/Soc-Analyst-Journey)
+<a href="https://github.com/Karunpoojari7/Soc-Analyst-Journey">View source code →</a>
 
 </details>
 
+</td>
+<td width="50%" valign="top">
+
+<p><strong><a href="https://github.com/Karunpoojari7/QuantumValut">04 / CLAUDEVAULT ↗</a></strong> &nbsp; <code>FULL-STACK</code></p>
+
+Full-stack application with a FastAPI backend and React frontend.
+
+<sub>FastAPI · React</sub>
+
 <details>
-<summary><b>04 · POST-QUANTUM SECURE FILE VAULT</b> &nbsp; <code>CRYPTOGRAPHY</code></summary>
+<summary>Project details</summary>
 
-**Overview**
+Explore the application architecture, backend API and frontend implementation.
 
-Exploring secure file storage and post-quantum cryptography concepts.
-
-**Technology:** `Cryptography` `Post-Quantum`
-
-[Explore Project →](YOUR_PROJECT_URL)
+<a href="https://github.com/Karunpoojari7/QuantumValut">View source code →</a>
 
 </details>
 
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<p><strong><a href="https://github.com/Karunpoojari7/Resume_Gap_AI">05 / RESUME GAP AI ↗</a></strong> &nbsp; <code>ARTIFICIAL INTELLIGENCE</code></p>
+
+AI-powered resume and skill-gap analysis with optimization reports.
+
+<sub>AI · Resume Analysis · Skill Intelligence</sub>
+
 <details>
-<summary><b>05 · INSIGHT AI</b> &nbsp; <code>ARTIFICIAL INTELLIGENCE</code></summary>
+<summary>Project details</summary>
 
-**Overview**
+Explore resume analysis and professional skill-gap reporting.
 
-AI-powered analytics chatbot and natural-language data exploration.
-
-**Technology:** `AI` `Analytics`
-
-[Explore Project →](YOUR_PROJECT_URL)
+<a href="https://github.com/Karunpoojari7/Resume_Gap_AI">View source code →</a>
 
 </details>
 
+</td>
+<td width="50%" valign="top">
+
+<p><strong><a href="https://github.com/Karunpoojari7/GMU-CONNECT-APP">06 / GMU CONNECT 2.0 ↗</a></strong> &nbsp; <code>MOBILE APP</code></p>
+
+Student ERP prototype with academic features and mobile access.
+
+<sub>React Native · Spring Boot</sub>
+
 <details>
-<summary><b>06 · GMU CONNECT 2.0</b> &nbsp; <code>MOBILE DEVELOPMENT</code></summary>
+<summary>Project details</summary>
 
-**Overview**
+- Student mobile application
+- Admin portal
+- Academic management
+- Backend API architecture
 
-Student-focused mobile application with academic APIs and authentication.
-
-**Technology:** `React Native` `TypeScript`
-
-[Explore Repository →](YOUR_GMU_REPO_URL)
+<a href="https://github.com/Karunpoojari7/GMU-CONNECT-APP">View source code →</a>
 
 </details>
----
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+<sub>Explore the projects to see their source code, documentation and development progress.</sub>
+</p>
+
 
 ## `04 // My technology toolkit`
 
