@@ -177,19 +177,7 @@ Where I am and what comes next, grouped by progress.
 <sub>Auto-refreshed every 6 hours by GitHub Actions directly from the GitHub API. No third-party stat services.</sub>
 
 </div>
-
-
 <br/>
-
-| Repository | Main language | Last commit |
-|:--|:--:|:--:|
-| [**NetWatch.AI**](https://github.com/Karunpoojari7/NETWATCH) | ![lang](https://img.shields.io/github/languages/top/Karunpoojari7/NETWATCH?style=flat-square&labelColor=080D12&color=2389E8&label=) | ![commit](https://img.shields.io/github/last-commit/Karunpoojari7/NETWATCH?style=flat-square&labelColor=080D12&color=00C987&label=) |
-| [**Bayora**](https://github.com/Karunpoojari7/Bayora_Sec) | ![lang](https://img.shields.io/github/languages/top/Karunpoojari7/Bayora_Sec?style=flat-square&labelColor=080D12&color=2389E8&label=) | ![commit](https://img.shields.io/github/last-commit/Karunpoojari7/Bayora_Sec?style=flat-square&labelColor=080D12&color=00C987&label=) |
-| [**SOC Analyst Journey**](https://github.com/Karunpoojari7/Soc-Analyst-Journey) | ![lang](https://img.shields.io/github/languages/top/Karunpoojari7/Soc-Analyst-Journey?style=flat-square&labelColor=080D12&color=2389E8&label=) | ![commit](https://img.shields.io/github/last-commit/Karunpoojari7/Soc-Analyst-Journey?style=flat-square&labelColor=080D12&color=00C987&label=) |
-| [**GMU Connect**](https://github.com/Karunpoojari7/GMU-CONNECT-APP) | ![lang](https://img.shields.io/github/languages/top/Karunpoojari7/GMU-CONNECT-APP?style=flat-square&labelColor=080D12&color=2389E8&label=) | ![commit](https://img.shields.io/github/last-commit/Karunpoojari7/GMU-CONNECT-APP?style=flat-square&labelColor=080D12&color=00C987&label=) |
-| [**Resume Gap AI**](https://github.com/Karunpoojari7/Resume_Gap_AI) | ![lang](https://img.shields.io/github/languages/top/Karunpoojari7/Resume_Gap_AI?style=flat-square&labelColor=080D12&color=2389E8&label=) | ![commit](https://img.shields.io/github/last-commit/Karunpoojari7/Resume_Gap_AI?style=flat-square&labelColor=080D12&color=00C987&label=) |
-
-</details>
 
 ---
 
