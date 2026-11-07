@@ -1,127 +1,101 @@
-<!-- KARUN H G | CYBERSECURITY PORTFOLIO -->
-
 <div align="center">
 
 <img src="./assets/cyber-banner.png" width="100%" alt="Karun H G Cybersecurity Banner"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3200&pause=1000&color=00FF9C&center=true&vCenter=true&width=700&height=38&lines=root%40karun-lab%3A~%24+whoami;Karun+H+G+%7C+MCA+Student;Cybersecurity+%7C+Software+Development+%7C+AI+Security;Observe.+Investigate.+Validate.+Secure." alt="Animated terminal"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3200&pause=1000&color=00FF9C&center=true&vCenter=true&width=700&height=38&lines=root%40karun-lab%3A~%24+whoami;Karun+H+G+%7C+MCA+Student;Cybersecurity+%7C+SOC+%7C+AI+Security;Observe.+Investigate.+Validate.+Secure." alt="Animated terminal"/>
 
 <br/>
 
 ![Status](https://img.shields.io/badge/STATUS-LEARNING_%26_BUILDING-080D12?style=for-the-badge&labelColor=00ff9c)
 ![Focus](https://img.shields.io/badge/FOCUS-SOC_%7C_DFIR_%7C_AI_SECURITY-080D12?style=for-the-badge&labelColor=00ff9c)
-![Location](https://img.shields.io/badge/BASE-BENGALURU%2C_INDIA-080D12?style=for-the-badge&labelColor=00ff9c)
+![Base](https://img.shields.io/badge/BASE-BENGALURU%2C_INDIA-080D12?style=for-the-badge&labelColor=00ff9c)
 
 <br/>
 
-[**About**](#01--about) &nbsp;•&nbsp;
-[**Security Operations**](#02--security-operations) &nbsp;•&nbsp;
-[**Projects**](#03--featured-projects) &nbsp;•&nbsp;
-[**Skills**](#04--technical-skills--tools) &nbsp;•&nbsp;
-[**Roadmap**](#05--security-roadmap) &nbsp;•&nbsp;
-[**Connect**](#06--connect)
+[![GitHub](https://img.shields.io/badge/GITHUB-Karunpoojari7-181717?style=flat-square&logo=github&logoColor=00ff9c)](https://github.com/Karunpoojari7)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/karun-poojari-uiux)
+[![Projects](https://img.shields.io/badge/VIEW-PROJECTS-00C987?style=flat-square&labelColor=080D12)](#03--featured-projects)
+[![Connect](https://img.shields.io/badge/LET'S-CONNECT-00C987?style=flat-square&labelColor=080D12)](#07--lets-connect)
 
 </div>
 
+<br/>
+
+> **I want to understand how systems break, so I can build ones that don't.**
+> MCA student focused on cybersecurity, network forensics and AI security. I learn by building, investigating and documenting.
+
 ---
 
-## `01 // ABOUT`
+## `01 // The person behind the code`
+
+Hi, I'm **Karun H G**, an MCA student and cybersecurity learner from Bengaluru. I like knowing how systems work, how vulnerabilities appear, and how to detect and fix them. I split my time between **defensive security (SOC, PCAP forensics)**, **offensive fundamentals (recon, web security)** and **AI security**.
+
+| | |
+|---|---|
+| 🎓 **Education** | MCA (Master of Computer Applications) |
+| 🎯 **Focus** | SOC Operations, Network Forensics, DNS Recon, AI Security |
+| 🧪 **Lab** | Kali Linux and isolated practice environments |
+| 🔁 **Workflow** | Observe → Investigate → Validate → Document → Improve |
+| 🚀 **Career goal** | Security Engineer / SOC Analyst / AI Security roles |
+| 🤝 **Open to** | Internships · Collaboration · Mentorship · CTF teams |
+
+> **Ethical boundary:** all offensive testing is done only on systems I own or have explicit permission to test.
 
 ```bash
-root@karun-lab:~$ cat profile.json
+root@karun-lab:~$ cat mindset.txt
+Every ethical offensive experiment becomes a defensive lesson.
 ```
-
-```json
-{
-  "name": "Karun H G",
-  "education": "MCA Student",
-  "roles": ["Cybersecurity Learner", "Software Developer", "Aspiring AI Security Engineer"],
-  "current_focus": ["SOC Operations", "Network Forensics (TShark / PCAP)", "DNS Recon", "AI Security"],
-  "lab": "Kali Linux and isolated practice environments",
-  "workflow": "Observe -> Investigate -> Validate -> Document -> Improve",
-  "goal": "Security Engineering / SOC / AI Security roles",
-  "open_to": ["Internships", "Collaboration", "Mentorship", "CTF teams"]
-}
-```
-
-I'm an MCA student, cybersecurity learner and software developer interested in how systems work, how vulnerabilities emerge, and how technology can be made more secure. My interests span offensive security, defensive security, network forensics, applied cryptography, post-quantum cryptography and AI security.
-
-**Current mission:** build practical projects, investigate security concepts, strengthen technical skills and document what I learn.
-
-> **Ethical boundary:** All offensive security testing is performed only on systems I own or have explicit permission to test.
 
 ---
 
-## `02 // SECURITY OPERATIONS`
+## `02 // Inside my security lab`
 
-<div align="center">
-
-<img src="./assets/Neon Cybersecurity Tri-Panel Banner.png" width="100%" alt="Red Team, Blue Team and AI Security overview"/>
-
-</div>
+I organize my work around three connected areas.
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-<h3 align="center">🔴 RED TEAM</h3>
-<p align="center"><sub>OFFENSIVE SECURITY</sub></p>
-<p align="center"><i>Understand the attack surface. Anticipate weaknesses.</i></p>
+### 🔴 Red Team
+<sub>OFFENSIVE SECURITY</sub>
 
-<ul>
-<li>Reconnaissance and enumeration</li>
-<li>DNS reconnaissance</li>
-<li>Network scanning and service discovery</li>
-<li>Web application security fundamentals</li>
-<li>Vulnerability assessment</li>
-<li>Adversarial AI testing</li>
-</ul>
+- Reconnaissance and enumeration
+- DNS reconnaissance
+- Network scanning
+- Web app security basics
+- Vulnerability assessment
 
-<p><strong>TOOLKIT</strong></p>
-
-<p><code>Nmap</code> · <code>Burp Suite</code> · <code>OWASP ZAP</code> · <code>Metasploit</code> · <code>gobuster</code> · <code>ffuf</code> · <code>Kali Linux</code></p>
+`Nmap` `Burp Suite` `OWASP ZAP` `Metasploit` `ffuf` `gobuster`
 
 </td>
 <td width="33%" valign="top">
 
-<h3 align="center">🔵 BLUE TEAM</h3>
-<p align="center"><sub>DEFENSIVE SECURITY</sub></p>
-<p align="center"><i>Detect threats. Investigate incidents. Protect the network.</i></p>
+### 🔵 Blue Team
+<sub>DEFENSIVE SECURITY</sub>
 
-<ul>
-<li>SOC operations and alert triage</li>
-<li>Network traffic analysis</li>
-<li>PCAP investigation</li>
-<li>TLS / SNI / QUIC inspection</li>
-<li>Threat detection and log analysis</li>
-<li>Incident investigation</li>
-<li>Secure system design</li>
-</ul>
+- SOC alert triage
+- PCAP investigation
+- TLS / SNI / QUIC inspection
+- Log analysis and detection
+- Incident investigation
 
-<p><strong>TOOLKIT</strong></p>
-
-<p><code>Wireshark</code> · <code>TShark</code> · <code>tcpdump</code> · <code>Linux CLI</code> · <code>grep</code> · <code>awk</code> · <code>jq</code> · <code>SIEM concepts</code></p>
+`Wireshark` `TShark` `tcpdump` `grep` `awk` `jq`
 
 </td>
 <td width="33%" valign="top">
 
-<h3 align="center">🟢 AI SECURITY</h3>
-<p align="center"><sub>AI SAFETY & EVALUATION</sub></p>
-<p align="center"><i>Evaluate intelligent systems. Build safer AI.</i></p>
+### 🟢 AI Security
+<sub>AI SAFETY & EVALUATION</sub>
 
-<ul>
-<li>AI red teaming and prompt-injection testing</li>
-<li>Adversarial testing in controlled environments</li>
-<li>Defensive evaluation and guardrails</li>
-<li>Secure AI design and access control</li>
-<li>AI safety and reliability testing</li>
-</ul>
+- Prompt-injection testing
+- AI red teaming (controlled)
+- Guardrails and evaluation
+- Secure AI design
+- Reliability testing
 
-<p><strong>FOCUS</strong></p>
-
-<p><code>AI Red Teaming</code> · <code>Evaluation</code> · <code>Python</code> · <code>AI Safety</code></p>
+`Python` `AI Red Teaming` `Evaluation`
 
 </td>
 </tr>
@@ -130,8 +104,6 @@ I'm an MCA student, cybersecurity learner and software developer interested in h
 <div align="center">
 
 **RED TEAM → EVIDENCE → BLUE TEAM → HARDENING**
-
-*Every ethical offensive experiment can become a defensive lesson.*
 
 </div>
 
@@ -159,231 +131,182 @@ tshark -r capture.pcap -Y "quic"
 
 ---
 
-## `03 // FEATURED PROJECTS`
+## `03 // Featured projects`
 
-<div align="center">
+Selected builds that show how I practice security and software development. Some are ongoing, so check each repo for status.
 
-<sub>SELECTED BUILDS • SECURITY RESEARCH • SOFTWARE DEVELOPMENT</sub>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-</div>
-
-### 🔐 Post-Quantum Secure File Vault
-
-<sub>CRYPTOGRAPHY / SECURE STORAGE</sub>
-
+#### 🔐 01. Post-Quantum Secure File Vault
 Security-focused file storage exploring post-quantum cryptography concepts.
 
-![Cryptography](https://img.shields.io/badge/CRYPTOGRAPHY-00C987?style=flat-square&labelColor=080D12)
+![Crypto](https://img.shields.io/badge/CRYPTOGRAPHY-00C987?style=flat-square&labelColor=080D12)
 ![PQC](https://img.shields.io/badge/POST--QUANTUM-00C987?style=flat-square&labelColor=080D12)
 ![Security](https://img.shields.io/badge/SECURITY-00C987?style=flat-square&labelColor=080D12)
 
----
+</td>
+<td width="50%" valign="top">
 
-### 🛡️ Bayora — AI Safety Testing
-
-<sub>AI SECURITY / RED TEAM × BLUE TEAM</sub>
-
+#### 🛡️ 02. Bayora: AI Safety Testing
 Infrastructure for controlled AI security testing and defensive evaluation.
 
 ![AI Security](https://img.shields.io/badge/AI_SECURITY-00C987?style=flat-square&labelColor=080D12)
 ![Red Team](https://img.shields.io/badge/RED_TEAM-FF5252?style=flat-square&labelColor=080D12)
 ![Evaluation](https://img.shields.io/badge/EVALUATION-00C987?style=flat-square&labelColor=080D12)
 
-[**↗ Explore repository**](https://github.com/Karunpoojari7/Bayora_Sec)
+[↗ Repository](https://github.com/Karunpoojari7/Bayora_Sec)
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### 🔵 SOC Analyst Journey
-
-<sub>NETWORK FORENSICS / DEFENSIVE SECURITY</sub>
-
-Practical learning through packet analysis, command references and investigation reports.
+#### 🔵 03. SOC Analyst Journey
+Packet analysis, command references and investigation reports from hands-on practice.
 
 ![SOC](https://img.shields.io/badge/SOC-2389E8?style=flat-square&labelColor=080D12)
 ![PCAP](https://img.shields.io/badge/PCAP-2389E8?style=flat-square&labelColor=080D12)
 ![DFIR](https://img.shields.io/badge/DFIR-2389E8?style=flat-square&labelColor=080D12)
 
-[**↗ Explore repository**](https://github.com/Karunpoojari7/Soc-Analyst-Journey)
+[↗ Repository](https://github.com/Karunpoojari7/Soc-Analyst-Journey)
 
----
+</td>
+<td width="50%" valign="top">
 
-### 📊 Insight AI
-
-<sub>AI / DATA ANALYTICS</sub>
-
+#### 📊 04. Insight AI
 AI-powered analytics chatbot and dashboard concept for exploring data in natural language.
 
 ![AI](https://img.shields.io/badge/AI-00C987?style=flat-square&labelColor=080D12)
 ![Analytics](https://img.shields.io/badge/ANALYTICS-00C987?style=flat-square&labelColor=080D12)
 ![Dashboard](https://img.shields.io/badge/DASHBOARD-00C987?style=flat-square&labelColor=080D12)
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### 🎓 GMU Connect 2.0
+#### 🎓 05. GMU Connect 2.0
+Student-focused mobile app with academic APIs, authentication and a React Native + TypeScript foundation.
 
-<sub>MOBILE DEVELOPMENT / STUDENT TECHNOLOGY</sub>
+![React Native](https://img.shields.io/badge/REACT_NATIVE-00C987?style=flat-square&labelColor=080D12)
+![TypeScript](https://img.shields.io/badge/TYPESCRIPT-00C987?style=flat-square&labelColor=080D12)
 
-Student-focused mobile application initiative involving academic APIs, authentication and a React Native + TypeScript foundation.
+</td>
+<td width="50%" valign="top">
 
-> Project status varies: some projects are ongoing or exploratory. Visit each repository for details.
+#### ➕ More on GitHub
+Experiments, notes and projects in progress. New work is added as I ship it.
 
----
+[↗ View all repositories](https://github.com/Karunpoojari7?tab=repositories)
 
-## `04 // TECHNICAL SKILLS & TOOLS`
-
-<details open>
-<summary><b>💻 Programming & Development</b></summary>
-<br/>
-
-<div align="center">
-
-<a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="55" alt="Python"/></a>
-<a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" width="55" alt="Java"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" width="55" alt="HTML"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" width="55" alt="CSS"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" width="55" alt="JavaScript"/></a>
-<a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" width="55" alt="TypeScript"/></a>
-<a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" width="55" alt="React"/></a>
-<a href="https://nextjs.org/"><img src="https://skillicons.dev/icons?i=nextjs" width="55" alt="Next.js"/></a>
-<a href="https://spring.io/projects/spring-boot"><img src="https://skillicons.dev/icons?i=spring" width="55" alt="Spring Boot"/></a>
-<a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" width="55" alt="FastAPI"/></a>
-<a href="https://flask.palletsprojects.com/"><img src="https://skillicons.dev/icons?i=flask" width="55" alt="Flask"/></a>
-<a href="https://tailwindcss.com/"><img src="https://skillicons.dev/icons?i=tailwind" width="55" alt="Tailwind CSS"/></a>
-
-</div>
-
-</details>
-
-<details open>
-<summary><b>🗄️ Databases & Development Tools</b></summary>
-<br/>
-
-<div align="center">
-
-<a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" width="55" alt="MySQL"/></a>
-<a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" width="55" alt="PostgreSQL"/></a>
-<a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb" width="55" alt="MongoDB"/></a>
-<a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" width="55" alt="Docker"/></a>
-<a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="55" alt="Git"/></a>
-<a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" width="55" alt="GitHub"/></a>
-<a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" width="55" alt="VS Code"/></a>
-
-</div>
-
-</details>
-
-<details open>
-<summary><b>🖥️ Systems & Environments</b></summary>
-<br/>
-
-<div align="center">
-
-<a href="https://www.kali.org/"><img src="https://skillicons.dev/icons?i=kali" width="55" alt="Kali Linux"/></a>
-<a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux" width="55" alt="Linux"/></a>
-<a href="https://www.gnu.org/software/bash/"><img src="https://skillicons.dev/icons?i=bash" width="55" alt="Bash"/></a>
-<a href="https://www.microsoft.com/windows"><img src="https://skillicons.dev/icons?i=windows" width="55" alt="Windows"/></a>
-
-</div>
-
-</details>
-
-<details open>
-<summary><b>🔐 Cybersecurity Tools & Interests</b></summary>
-<br/>
-
-<div align="center">
-
-<a href="https://www.wireshark.org/"><img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/></a>
-<a href="https://nmap.org/"><img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/></a>
-<a href="https://portswigger.net/burp"><img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite"/></a>
-<a href="https://www.zaproxy.org/"><img src="https://img.shields.io/badge/OWASP_ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP ZAP"/></a>
-<a href="https://www.metasploit.com/"><img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit"/></a>
-<a href="https://www.tcpdump.org/"><img src="https://img.shields.io/badge/tcpdump-00A67D?style=for-the-badge&labelColor=080D12" alt="tcpdump"/></a>
-
-<br/>
-
-![Network Security](https://img.shields.io/badge/NETWORK_SECURITY-0969DA?style=for-the-badge&labelColor=0969DA)
-![Web Application Security](https://img.shields.io/badge/WEB_APPLICATION_SECURITY-0969DA?style=for-the-badge&labelColor=0969DA)
-![Incident Response](https://img.shields.io/badge/INCIDENT_RESPONSE-0784B8?style=for-the-badge&labelColor=0784B8)
-![Applied Cryptography](https://img.shields.io/badge/APPLIED_CRYPTOGRAPHY-0784B8?style=for-the-badge&labelColor=0784B8)
-![Post Quantum Cryptography](https://img.shields.io/badge/POST_QUANTUM_CRYPTOGRAPHY-0969DA?style=for-the-badge&labelColor=0969DA)
-![AI Security](https://img.shields.io/badge/AI_SECURITY-0969DA?style=for-the-badge&labelColor=0969DA)
-
-</div>
-
-</details>
-
-<sub>Technologies listed are tools I have worked with or am actively learning. They do not imply expert-level proficiency in every item.</sub>
+</td>
+</tr>
+</table>
 
 ---
 
-## `05 // SECURITY ROADMAP`
+## `04 // My technology toolkit`
 
 <div align="center">
 
-`RESEARCH → EXPERIMENT → DOCUMENT → IMPROVE`
+**Languages & Development**<br/>
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css" alt="Languages"/>
+
+**Frameworks**<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,spring,fastapi,flask,tailwind" alt="Frameworks"/>
+
+**Databases & Tools**<br/>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,docker,git,github,vscode" alt="Databases and tools"/>
+
+**Systems**<br/>
+<img src="https://skillicons.dev/icons?i=kali,linux,bash,windows" alt="Systems"/>
+
+**Security Tools**<br/>
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
+<img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/>
+<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
+<img src="https://img.shields.io/badge/OWASP_ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP ZAP"/>
+<img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit"/>
 
 </div>
 
-<details open>
-<summary><b>🟢 Phase 01 — Foundation (completed)</b></summary>
-<br/>
+<sub>Tools listed are ones I have used or am actively learning. They do not imply expert-level proficiency in every item.</sub>
 
+---
+
+## `05 // What I'm learning next`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔵 Defensive Track
 - [x] Network traffic analysis
 - [x] TShark and PCAP fundamentals
 - [x] TLS / SNI / QUIC inspection
 - [x] DNS reconnaissance
-- [x] Linux fundamentals
-
-</details>
-
-<details open>
-<summary><b>🔵 Phase 02 — Active Investigation (in progress)</b></summary>
-<br/>
-
 - [ ] SOC detection engineering
 - [ ] SIEM lab practice
+- [ ] Advanced incident response
+
+</td>
+<td width="50%" valign="top">
+
+### 🔴 Offensive & AI Track
+- [x] Linux fundamentals
 - [ ] OWASP Top 10
 - [ ] Web application security
-- [ ] CTF practice — TryHackMe / Hack The Box
-
-</details>
-
-<details>
-<summary><b>🟣 Phase 03 — Next Targets (planned)</b></summary>
-<br/>
-
-- [ ] Security+ / BTL1 / eJPT preparation
-- [ ] AI red teaming
-- [ ] LLM security research
-- [ ] Advanced incident response
+- [ ] CTF practice (TryHackMe / Hack The Box)
+- [ ] AI red teaming and LLM security research
 - [ ] Applied cryptography research
+- [ ] Security+ / BTL1 / eJPT preparation
 
-</details>
+</td>
+</tr>
+</table>
 
 ---
 
-## `06 // CONNECT`
+## `06 // GitHub activity`
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Karunpoojari7&show_icons=true&theme=dark&bg_color=080D12&title_color=00FF9C&icon_color=00FF9C&text_color=c9d1d9&border_color=003B2A&hide_border=false" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Karunpoojari7&layout=compact&theme=dark&bg_color=080D12&title_color=00FF9C&text_color=c9d1d9&border_color=003B2A" alt="Top languages"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=Karunpoojari7&theme=dark&background=080D12&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C&border=003B2A" alt="GitHub streak"/>
+
+</div>
+
+---
+
+## `07 // Let's connect`
 
 <div align="center">
 
 `root@karun-lab:~$ ./connect.sh`
 
-**Open to learning, collaboration, mentorship and cybersecurity opportunities.**
+I'm happy to talk about security, SOC work, CTFs, AI safety, internships or collaboration.
 
 <br/>
 
 <a href="https://in.linkedin.com/in/karun-poojari-uiux">
 <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
-<a href="https://github.com/Karunpoojari7">
-<img src="https://img.shields.io/badge/GITHUB-FOLLOW-181717?style=for-the-badge&logo=github&logoColor=00ff9c" alt="GitHub"/>
+<a href="https://github.com/Karunpoojari7?tab=repositories">
+<img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-181717?style=for-the-badge&logo=github&logoColor=00ff9c" alt="Repositories"/>
 </a>
 
 <br/><br/>
 
+*Curiosity starts the experiment. Security turns it into something useful.*
+
 **OBSERVE / INVESTIGATE / VALIDATE / SECURE**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080D12,45:003B2A,100:00FF9C&height=150&section=footer&animation=fadeIn" width="100%" alt="Footer wave"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080D12,45:003B2A,100:00FF9C&height=120&section=footer" width="100%" alt="Footer wave"/>
 
 </div>
