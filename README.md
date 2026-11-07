@@ -80,20 +80,16 @@ tshark -r capture.pcap -Y "quic"
 
 ## `03 // Featured projects`
 
-Selected builds that show how I practice security and software development. Some are ongoing, so check each repo for status.
+| Project | What it does | Stack | Repo |
+|:--|:--|:--|:--:|
+| **🛡️ Bayora** <br/><sub>AI Safety Testing</sub> | Zero-trust infrastructure for controlled AI security testing, with separate Red Team, Target LLM and Blue Team sandboxes. | `FastAPI` `React` `Docker` | [View →](https://github.com/Karunpoojari7/Bayora_Sec) |
+| **📡 NetWatch.AI** <br/><sub>Network Monitoring</sub> | Full-stack monitoring platform with SNMP polling, ML anomaly detection and a real-time dashboard. | `Python` `FastAPI` `React` `PostgreSQL` | [View →](https://github.com/Karunpoojari7/NETWATCH) |
+| **🔵 SOC Analyst Journey** <br/><sub>Network Forensics</sub> | Packet analysis, command references and investigation reports from hands-on practice. | `TShark` `PCAP` `PowerShell` | [View →](https://github.com/Karunpoojari7/Soc-Analyst-Journey) |
+| **🔐 Post-Quantum Secure File Vault** <br/><sub>Cryptography</sub> | Security-focused file storage exploring post-quantum cryptography concepts. | `Cryptography` `Post-Quantum` | — |
+| **📊 Insight AI** <br/><sub>Data Analytics</sub> | AI-powered analytics chatbot and dashboard concept for exploring data in natural language. | `AI` `Analytics` | — |
+| **🎓 GMU Connect 2.0** <br/><sub>Mobile App</sub> | Student-focused app with academic APIs, authentication and a React Native + TypeScript foundation. | `React Native` `TypeScript` | [View →](https://github.com/Karunpoojari7/GMU-CONNECT-APP) |
 
-<div align="center">
-
-`▼ TAP A CARD TO OPEN THE PROJECT ▼`
-
-<a href="https://github.com/Karunpoojari7?tab=repositories"><img src="./assets/project-01.svg" width="49%" alt="Post-Quantum Secure File Vault"/></a>
-<a href="https://github.com/Karunpoojari7/Bayora_Sec"><img src="./assets/project-02.svg" width="49%" alt="Bayora: AI Safety Testing"/></a>
-<a href="https://github.com/Karunpoojari7/Soc-Analyst-Journey"><img src="./assets/project-03.svg" width="49%" alt="SOC Analyst Journey"/></a>
-<a href="https://github.com/Karunpoojari7?tab=repositories"><img src="./assets/project-04.svg" width="49%" alt="Insight AI"/></a>
-<a href="https://github.com/Karunpoojari7/GMU-CONNECT-APP"><img src="./assets/project-05.svg" width="49%" alt="GMU Connect 2.0"/></a>
-<a href="https://github.com/Karunpoojari7?tab=repositories"><img src="./assets/project-more.svg" width="49%" alt="More on GitHub"/></a>
-
-</div>
+<sub>Some projects are ongoing or exploratory. [Browse all repositories →](https://github.com/Karunpoojari7?tab=repositories)</sub>
 
 ---
 
