@@ -214,7 +214,7 @@ flowchart LR
 
 <div align="center">
 
-<img src="./assets/connect-card.svg" width="100%" alt="Open to opportunities: internships, collaboration, mentorship and CTF teams"/>
+Open to learning, collaboration, mentorship and cybersecurity opportunities.
 
 <br/>
 
