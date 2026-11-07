@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="./assets/cyber-banner.png" width="100%" alt="Karun H G Cybersecurity Banner"/>
+<div align="center">
+  <img src="./assets/cyber-banner.png"
+       width="100%"
+       alt="Karun H G Cybersecurity Banner"/>
+</div>
 
 <br/>
 
