@@ -78,18 +78,75 @@ tshark -r capture.pcap -Y "quic"
 
 ---
 
-## `03 // Featured projects`
+## 03 // Featured Projects
 
-| Project | What it does | Stack | Repo |
-|:--|:--|:--|:--:|
-| **🛡️ Bayora** <br/><sub>AI Safety Testing</sub> | Zero-trust infrastructure for controlled AI security testing, with separate Red Team, Target LLM and Blue Team sandboxes. | `FastAPI` `React` `Docker` | [View →](https://github.com/Karunpoojari7/Bayora_Sec) |
-| **📡 NetWatch.AI** <br/><sub>Network Monitoring</sub> | Full-stack monitoring platform with SNMP polling, ML anomaly detection and a real-time dashboard. | `Python` `FastAPI` `React` `PostgreSQL` | [View →](https://github.com/Karunpoojari7/NETWATCH) |
-| **🔵 SOC Analyst Journey** <br/><sub>Network Forensics</sub> | Packet analysis, command references and investigation reports from hands-on practice. | `TShark` `PCAP` `PowerShell` | [View →](https://github.com/Karunpoojari7/Soc-Analyst-Journey) |
-| **🔐 Post-Quantum Secure File Vault** <br/><sub>Cryptography</sub> | Security-focused file storage exploring post-quantum cryptography concepts. | `Cryptography` `Post-Quantum` | — |
-| **📊 Insight AI** <br/><sub>Data Analytics</sub> | AI-powered analytics chatbot and dashboard concept for exploring data in natural language. | `AI` `Analytics` | — |
-| **🎓 GMU Connect 2.0** <br/><sub>Mobile App</sub> | Student-focused app with academic APIs, authentication and a React Native + TypeScript foundation. | `React Native` `TypeScript` | [View →](https://github.com/Karunpoojari7/GMU-CONNECT-APP) |
+*Selected work across cybersecurity, AI and software engineering.*
 
-<sub>Some projects are ongoing or exploratory. [Browse all repositories →](https://github.com/Karunpoojari7?tab=repositories)</sub>
+<details>
+<summary><b>01 · Bayora</b> — AI Security & Zero-Trust Infrastructure</summary>
+
+Zero-trust infrastructure for controlled AI security testing, with separate Red Team, Target LLM and Blue Team sandboxes.
+
+**Stack:** `FastAPI` `React` `Docker`
+
+**[View Repository](PASTE_EXISTING_BAYORA_REPO_URL)**
+
+</details>
+
+<details>
+<summary><b>02 · NetWatch.AI</b> — Intelligent Network Monitoring</summary>
+
+Full-stack monitoring platform with SNMP polling, ML anomaly detection and a real-time dashboard.
+
+**Stack:** `Python` `FastAPI` `React` `PostgreSQL`
+
+**[View Repository](PASTE_EXISTING_NETWATCH_REPO_URL)**
+
+</details>
+
+<details>
+<summary><b>03 · SOC Analyst Journey</b> — Security Operations & Network Forensics</summary>
+
+Hands-on cybersecurity learning journey featuring packet analysis, command references and investigation reports.
+
+**Stack:** `TShark` `PCAP` `PowerShell`
+
+**[View Repository](PASTE_EXISTING_SOC_REPO_URL)**
+
+</details>
+
+<details>
+<summary><b>04 · Post-Quantum Secure File Vault</b> — Applied Cryptography</summary>
+
+Security-focused file storage project exploring post-quantum cryptography concepts.
+
+**Stack:** `Python` `Cryptography` `Post-Quantum`
+
+**[View Project](PASTE_EXISTING_PROJECT_URL)**
+
+</details>
+
+<details>
+<summary><b>05 · Insight AI</b> — AI-Powered Analytics</summary>
+
+AI-powered analytics chatbot and dashboard concept for exploring data using natural language.
+
+**Stack:** `AI` `Analytics`
+
+**[View Project](PASTE_EXISTING_PROJECT_URL)**
+
+</details>
+
+<details>
+<summary><b>06 · GMU Connect 2.0</b> — Student Mobile Application</summary>
+
+Student-focused application with academic APIs, authentication and a React Native + TypeScript foundation.
+
+**Stack:** `React Native` `TypeScript`
+
+**[View Repository](PASTE_EXISTING_GMU_REPO_URL)**
+
+</details>
 
 ---
 
