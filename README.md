@@ -32,25 +32,21 @@
 
 ---
 
-## `01 // The person behind the code`
+## `01 // THE PERSON BEHIND THE CODE`
 
-Hi, I'm **Karun H G**, an MCA student and cybersecurity learner from Bengaluru. I like knowing how systems work, how vulnerabilities appear, and how to detect and fix them. I split my time between **defensive security (SOC, PCAP forensics)**, **offensive fundamentals (recon, web security)** and **AI security**.
+<div align="center">
 
-| | |
-|---|---|
-| 🎓 **Education** | MCA (Master of Computer Applications) |
-| 🎯 **Focus** | SOC Operations, Network Forensics, DNS Recon, AI Security |
-| 🧪 **Lab** | Kali Linux and isolated practice environments |
-| 🔁 **Workflow** | Observe → Investigate → Validate → Document → Improve |
-| 🚀 **Career goal** | Security Engineer / SOC Analyst / AI Security roles |
-| 🤝 **Open to** | Internships · Collaboration · Mentorship · CTF teams |
+<img src="./assets/about-card.svg" width="100%" alt="Karun H G animated terminal profile card"/>
 
-> **Ethical boundary:** all offensive testing is done only on systems I own or have explicit permission to test.
+</div>
 
-```bash
-root@karun-lab:~$ cat mindset.txt
-Every ethical offensive experiment becomes a defensive lesson.
-```
+> **ETHICAL BOUNDARY:** All offensive security testing is performed only on systems I own or have explicit permission to test.
+
+<div align="center">
+
+*Every ethical offensive experiment becomes a defensive lesson.*
+
+</div>
 
 ---
 
