@@ -1,10 +1,6 @@
 <div align="center">
 
-<div align="center">
-  <img src="./assets/cyber-banner.png"
-       width="100%"
-       alt="Karun H G Cybersecurity Banner"/>
-</div>
+<img src="./assets/cyber-banner.png" width="100%" alt="Karun H G Cybersecurity Banner"/>
 
 <br/>
 
@@ -32,45 +28,138 @@
 
 ---
 
-## `01 // THE PERSON BEHIND THE CODE`
+## `01 // The person behind the code`
 
 <div align="center">
 
-<img src="./assets/about-card.svg" width="100%" alt="Karun H G animated terminal profile card"/>
+<img src="./assets/about-card.svg" width="100%" alt="Karun H G terminal profile card"/>
 
 </div>
 
-> **ETHICAL BOUNDARY:** All offensive security testing is performed only on systems I own or have explicit permission to test.
+<br/>
+
+Hi, I'm **Karun H G**, an MCA student and cybersecurity learner from Bengaluru. I like knowing how systems work, how vulnerabilities appear, and how to detect and fix them. I split my time between **defensive security (SOC, PCAP forensics)**, **offensive fundamentals (recon, web security)** and **AI security**.
 
 <div align="center">
 
-*Every ethical offensive experiment becomes a defensive lesson.*
+`▼ TAP A MODULE TO EXPAND ▼`
+
+</div>
+
+<details open>
+<summary><b>🎓&nbsp; EDUCATION</b> &nbsp;·&nbsp; <sub>academic background</sub></summary>
+
+```bash
+root@karun-lab:~$ cat education.txt
+MCA (Master of Computer Applications)
+```
+
+</details>
+
+<details>
+<summary><b>🎯&nbsp; FOCUS</b> &nbsp;·&nbsp; <sub>what I'm working on now</sub></summary>
+
+```bash
+root@karun-lab:~$ cat focus.txt
+[+] SOC Operations
+[+] Network Forensics (TShark / PCAP)
+[+] DNS Reconnaissance
+[+] AI Security
+```
+
+</details>
+
+<details>
+<summary><b>🧪&nbsp; LAB</b> &nbsp;·&nbsp; <sub>where I practice</sub></summary>
+
+```bash
+root@karun-lab:~$ cat lab.txt
+Kali Linux and isolated practice environments
+```
+
+</details>
+
+<details>
+<summary><b>🔁&nbsp; WORKFLOW</b> &nbsp;·&nbsp; <sub>how I learn</sub></summary>
+
+```bash
+root@karun-lab:~$ ./workflow.sh
+Observe -> Investigate -> Validate -> Document -> Improve
+```
+
+</details>
+
+<details>
+<summary><b>🚀&nbsp; CAREER GOAL</b> &nbsp;·&nbsp; <sub>where I'm heading</sub></summary>
+
+```bash
+root@karun-lab:~$ cat goal.txt
+Security Engineer / SOC Analyst / AI Security roles
+```
+
+</details>
+
+<details>
+<summary><b>🤝&nbsp; OPEN TO</b> &nbsp;·&nbsp; <sub>let's work together</sub></summary>
+
+```bash
+root@karun-lab:~$ cat open_to.txt
+Internships · Collaboration · Mentorship · CTF teams
+```
+
+</details>
+
+<details>
+<summary><b>⚠️&nbsp; ETHICAL BOUNDARY</b> &nbsp;·&nbsp; <sub>my rule</sub></summary>
+
+```bash
+root@karun-lab:~$ cat ethics.txt
+All offensive testing is done only on systems I own
+or have explicit permission to test.
+```
+
+</details>
+
+<div align="center">
+
+```bash
+root@karun-lab:~$ cat mindset.txt
+Every ethical offensive experiment becomes a defensive lesson.
+```
 
 </div>
 
 ---
-## `02 // INSIDE MY SECURITY LAB`
+
+## `02 // Inside my security lab`
+
+I organize my work around three connected areas: attack the surface, collect evidence, then harden what I find.
 
 <div align="center">
 
-<img src="./assets/lab-overview.svg" width="100%" alt="Karun's Red Team, Blue Team and AI Security lab overview"/>
+<img src="./assets/lab-overview.svg" width="100%" alt="Red Team, Blue Team and AI Security overview"/>
+
+<br/>
+
+*Every ethical offensive experiment can become a defensive lesson.*
 
 </div>
 
 <details>
-<summary><b>📡 Explore a sample network investigation (TShark)</b></summary>
+<summary><b>📡&nbsp; Sample investigation workflow (TShark)</b> &nbsp;·&nbsp; <sub>tap to expand</sub></summary>
+<br/>
 
 ```bash
-# Protocol hierarchy
+# Protocol hierarchy of a capture
 tshark -r capture.pcap -q -z io,phs
 
-# Extract TLS Server Name Indication
+# Extract TLS Server Name Indication (SNI)
 tshark -r capture.pcap -Y "tls.handshake.type == 1" \
-  -T fields -e ip.src -e tls.handshake.extensions_server_name
+       -T fields -e ip.src -e tls.handshake.extensions_server_name
 
 # Review DNS queries
 tshark -r capture.pcap -Y "dns.flags.response == 0" \
-  -T fields -e frame.time -e ip.src -e dns.qry.name
+       -T fields -e frame.time -e ip.src -e dns.qry.name
 
 # Identify QUIC traffic
 tshark -r capture.pcap -Y "quic"
@@ -79,6 +168,8 @@ tshark -r capture.pcap -Y "quic"
 </details>
 
 ---
+
+## `03 // Featured projects`
 
 Selected builds that show how I practice security and software development. Some are ongoing, so check each repo for status.
 
@@ -90,10 +181,41 @@ Selected builds that show how I practice security and software development. Some
 <a href="https://github.com/Karunpoojari7/Bayora_Sec"><img src="./assets/project-02.svg" width="49%" alt="Bayora: AI Safety Testing"/></a>
 <a href="https://github.com/Karunpoojari7/Soc-Analyst-Journey"><img src="./assets/project-03.svg" width="49%" alt="SOC Analyst Journey"/></a>
 <a href="https://github.com/Karunpoojari7?tab=repositories"><img src="./assets/project-04.svg" width="49%" alt="Insight AI"/></a>
-<a href="https://github.com/Karunpoojari7?tab=repositories"><img src="./assets/project-05.svg" width="49%" alt="GMU Connect 2.0"/></a>
+<a href="https://github.com/Karunpoojari7/GMU-CONNECT-APP"><img src="./assets/project-05.svg" width="49%" alt="GMU Connect 2.0"/></a>
 <a href="https://github.com/Karunpoojari7?tab=repositories"><img src="./assets/project-more.svg" width="49%" alt="More on GitHub"/></a>
 
 </div>
+
+---
+
+## `04 // My technology toolkit`
+
+<div align="center">
+
+**Languages & Development**<br/>
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css" alt="Languages"/>
+
+**Frameworks**<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,spring,fastapi,flask,tailwind" alt="Frameworks"/>
+
+**Databases & Tools**<br/>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,docker,git,github,vscode" alt="Databases and tools"/>
+
+**Systems**<br/>
+<img src="https://skillicons.dev/icons?i=kali,linux,bash,windows" alt="Systems"/>
+
+**Security Tools**<br/>
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
+<img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/>
+<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
+<img src="https://img.shields.io/badge/OWASP_ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP ZAP"/>
+<img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit"/>
+
+</div>
+
+<sub>Tools listed are ones I have used or am actively learning. They do not imply expert-level proficiency in every item.</sub>
+
+---
 
 ## `05 // What I'm learning next`
 
@@ -119,18 +241,63 @@ flowchart LR
     class C plan
 ```
 
+<details open>
+<summary><b>🔵&nbsp; DEFENSIVE TRACK</b> &nbsp;·&nbsp; <sub>SOC, forensics, detection</sub></summary>
+<br/>
+
+| Skill | Status | Phase |
+|:--|:--:|:--:|
+| Network traffic analysis | ![DONE](https://img.shields.io/badge/DONE-00C987?style=flat-square&labelColor=080D12) | `01 Foundation` |
+| TShark and PCAP fundamentals | ![DONE](https://img.shields.io/badge/DONE-00C987?style=flat-square&labelColor=080D12) | `01 Foundation` |
+| TLS / SNI / QUIC inspection | ![DONE](https://img.shields.io/badge/DONE-00C987?style=flat-square&labelColor=080D12) | `01 Foundation` |
+| DNS reconnaissance | ![DONE](https://img.shields.io/badge/DONE-00C987?style=flat-square&labelColor=080D12) | `01 Foundation` |
+| SOC detection engineering | ![IN PROGRESS](https://img.shields.io/badge/IN_PROGRESS-2389E8?style=flat-square&labelColor=080D12) | `02 Investigation` |
+| SIEM lab practice | ![IN PROGRESS](https://img.shields.io/badge/IN_PROGRESS-2389E8?style=flat-square&labelColor=080D12) | `02 Investigation` |
+| Advanced incident response | ![PLANNED](https://img.shields.io/badge/PLANNED-8B949E?style=flat-square&labelColor=080D12) | `03 Next targets` |
+
+</details>
+
+<details open>
+<summary><b>🔴&nbsp; OFFENSIVE &amp; AI TRACK</b> &nbsp;·&nbsp; <sub>web security, CTFs, AI red teaming, certifications</sub></summary>
+<br/>
+
+| Skill | Status | Phase |
+|:--|:--:|:--:|
+| Linux fundamentals | ![DONE](https://img.shields.io/badge/DONE-00C987?style=flat-square&labelColor=080D12) | `01 Foundation` |
+| OWASP Top 10 | ![IN PROGRESS](https://img.shields.io/badge/IN_PROGRESS-2389E8?style=flat-square&labelColor=080D12) | `02 Investigation` |
+| Web application security | ![IN PROGRESS](https://img.shields.io/badge/IN_PROGRESS-2389E8?style=flat-square&labelColor=080D12) | `02 Investigation` |
+| CTF practice (TryHackMe / Hack The Box) | ![IN PROGRESS](https://img.shields.io/badge/IN_PROGRESS-2389E8?style=flat-square&labelColor=080D12) | `02 Investigation` |
+| AI red teaming and LLM security research | ![PLANNED](https://img.shields.io/badge/PLANNED-8B949E?style=flat-square&labelColor=080D12) | `03 Next targets` |
+| Applied cryptography research | ![PLANNED](https://img.shields.io/badge/PLANNED-8B949E?style=flat-square&labelColor=080D12) | `03 Next targets` |
+| Security+ / BTL1 / eJPT preparation | ![PLANNED](https://img.shields.io/badge/PLANNED-8B949E?style=flat-square&labelColor=080D12) | `03 Next targets` |
+
+</details>
+
+---
+
 ## `06 // GitHub activity`
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Karunpoojari7&show_icons=true&theme=dark&bg_color=080D12&title_color=00FF9C&icon_color=00FF9C&text_color=c9d1d9&border_color=003B2A&hide_border=false" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Karunpoojari7&layout=compact&theme=dark&bg_color=080D12&title_color=00FF9C&text_color=c9d1d9&border_color=003B2A" alt="Top languages"/>
+<img src="./assets/stats-dashboard.svg" width="100%" alt="Live GitHub activity dashboard"/>
 
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=Karunpoojari7&theme=dark&background=080D12&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C&border=003B2A" alt="GitHub streak"/>
+<sub>Auto-refreshed every 6 hours by GitHub Actions directly from the GitHub API. No third-party stat services.</sub>
 
 </div>
+
+<details open>
+<summary><b>📡&nbsp; LIVE REPO PULSE</b> &nbsp;·&nbsp; <sub>updates the moment I push</sub></summary>
+<br/>
+
+| Repository | Main language | Last commit |
+|:--|:--:|:--:|
+| [**NetWatch.AI**](https://github.com/Karunpoojari7/NETWATCH) | ![lang](https://img.shields.io/github/languages/top/Karunpoojari7/NETWATCH?style=flat-square&labelColor=080D12&color=2389E8&label=) | ![commit](https://img.shields.io/github/last-commit/Karunpoojari7/NETWATCH?style=flat-square&labelColor=080D12&color=00C987&label=) |
+| [**Bayora**](https://github.com/Karunpoojari7/Bayora_Sec) | ![lang](https://img.shields.io/github/languages/top/Karunpoojari7/Bayora_Sec?style=flat-square&labelColor=080D12&color=2389E8&label=) | ![commit](https://img.shields.io/github/last-commit/Karunpoojari7/Bayora_Sec?style=flat-square&labelColor=080D12&color=00C987&label=) |
+| [**SOC Analyst Journey**](https://github.com/Karunpoojari7/Soc-Analyst-Journey) | ![lang](https://img.shields.io/github/languages/top/Karunpoojari7/Soc-Analyst-Journey?style=flat-square&labelColor=080D12&color=2389E8&label=) | ![commit](https://img.shields.io/github/last-commit/Karunpoojari7/Soc-Analyst-Journey?style=flat-square&labelColor=080D12&color=00C987&label=) |
+| [**GMU Connect**](https://github.com/Karunpoojari7/GMU-CONNECT-APP) | ![lang](https://img.shields.io/github/languages/top/Karunpoojari7/GMU-CONNECT-APP?style=flat-square&labelColor=080D12&color=2389E8&label=) | ![commit](https://img.shields.io/github/last-commit/Karunpoojari7/GMU-CONNECT-APP?style=flat-square&labelColor=080D12&color=00C987&label=) |
+| [**Resume Gap AI**](https://github.com/Karunpoojari7/Resume_Gap_AI) | ![lang](https://img.shields.io/github/languages/top/Karunpoojari7/Resume_Gap_AI?style=flat-square&labelColor=080D12&color=2389E8&label=) | ![commit](https://img.shields.io/github/last-commit/Karunpoojari7/Resume_Gap_AI?style=flat-square&labelColor=080D12&color=00C987&label=) |
+
+</details>
 
 ---
 
