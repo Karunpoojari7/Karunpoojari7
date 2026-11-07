@@ -97,36 +97,27 @@ Selected builds that show how I practice security and software development. Some
 
 ## `05 // What I'm learning next`
 
-<table>
-<tr>
-<td width="50%" valign="top">
+My roadmap is built on one loop: **research, experiment, document, improve**. Foundations are done, and I'm now working through hands-on investigation before moving into AI security and certifications.
 
-### 🔵 Defensive Track
-- [x] Network traffic analysis
-- [x] TShark and PCAP fundamentals
-- [x] TLS / SNI / QUIC inspection
-- [x] DNS reconnaissance
-- [ ] SOC detection engineering
-- [ ] SIEM lab practice
-- [ ] Advanced incident response
+```bash
+root@karun-lab:~$ ./progress.sh
 
-</td>
-<td width="50%" valign="top">
+DEFENSIVE TRACK    [████████░░░░░░]  57%   4 done · 2 active · 1 planned
+OFFENSIVE & AI     [██░░░░░░░░░░░░]  14%   1 done · 3 active · 3 planned
+─────────────────────────────────────────────────────────────────
+OVERALL            [█████░░░░░░░░░]  36%   5 of 14 milestones complete
+```
 
-### 🔴 Offensive & AI Track
-- [x] Linux fundamentals
-- [ ] OWASP Top 10
-- [ ] Web application security
-- [ ] CTF practice (TryHackMe / Hack The Box)
-- [ ] AI red teaming and LLM security research
-- [ ] Applied cryptography research
-- [ ] Security+ / BTL1 / eJPT preparation
-
-</td>
-</tr>
-</table>
-
----
+```mermaid
+flowchart LR
+    A["<b>PHASE 01</b><br/>Foundation<br/>COMPLETED"] --> B["<b>PHASE 02</b><br/>Active Investigation<br/>IN PROGRESS"] --> C["<b>PHASE 03</b><br/>Next Targets<br/>PLANNED"]
+    classDef done fill:#0b3d2e,stroke:#00ff9c,stroke-width:2px,color:#e6edf3
+    classDef active fill:#0b2a4a,stroke:#2389e8,stroke-width:2px,color:#e6edf3
+    classDef plan fill:#1c2128,stroke:#8b949e,stroke-width:2px,stroke-dasharray:5 5,color:#e6edf3
+    class A done
+    class B active
+    class C plan
+```
 
 ## `06 // GitHub activity`
 
