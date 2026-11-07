@@ -80,110 +80,20 @@ tshark -r capture.pcap -Y "quic"
 
 ---
 
-## `03 // Featured projects`
-
 Selected builds that show how I practice security and software development. Some are ongoing, so check each repo for status.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🔐 01. Post-Quantum Secure File Vault
-Security-focused file storage exploring post-quantum cryptography concepts.
-
-![Crypto](https://img.shields.io/badge/CRYPTOGRAPHY-00C987?style=flat-square&labelColor=080D12)
-![PQC](https://img.shields.io/badge/POST--QUANTUM-00C987?style=flat-square&labelColor=080D12)
-![Security](https://img.shields.io/badge/SECURITY-00C987?style=flat-square&labelColor=080D12)
-
-</td>
-<td width="50%" valign="top">
-
-#### 🛡️ 02. Bayora: AI Safety Testing
-Infrastructure for controlled AI security testing and defensive evaluation.
-
-![AI Security](https://img.shields.io/badge/AI_SECURITY-00C987?style=flat-square&labelColor=080D12)
-![Red Team](https://img.shields.io/badge/RED_TEAM-FF5252?style=flat-square&labelColor=080D12)
-![Evaluation](https://img.shields.io/badge/EVALUATION-00C987?style=flat-square&labelColor=080D12)
-
-[↗ Repository](https://github.com/Karunpoojari7/Bayora_Sec)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🔵 03. SOC Analyst Journey
-Packet analysis, command references and investigation reports from hands-on practice.
-
-![SOC](https://img.shields.io/badge/SOC-2389E8?style=flat-square&labelColor=080D12)
-![PCAP](https://img.shields.io/badge/PCAP-2389E8?style=flat-square&labelColor=080D12)
-![DFIR](https://img.shields.io/badge/DFIR-2389E8?style=flat-square&labelColor=080D12)
-
-[↗ Repository](https://github.com/Karunpoojari7/Soc-Analyst-Journey)
-
-</td>
-<td width="50%" valign="top">
-
-#### 📊 04. Insight AI
-AI-powered analytics chatbot and dashboard concept for exploring data in natural language.
-
-![AI](https://img.shields.io/badge/AI-00C987?style=flat-square&labelColor=080D12)
-![Analytics](https://img.shields.io/badge/ANALYTICS-00C987?style=flat-square&labelColor=080D12)
-![Dashboard](https://img.shields.io/badge/DASHBOARD-00C987?style=flat-square&labelColor=080D12)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🎓 05. GMU Connect 2.0
-Student-focused mobile app with academic APIs, authentication and a React Native + TypeScript foundation.
-
-![React Native](https://img.shields.io/badge/REACT_NATIVE-00C987?style=flat-square&labelColor=080D12)
-![TypeScript](https://img.shields.io/badge/TYPESCRIPT-00C987?style=flat-square&labelColor=080D12)
-
-</td>
-<td width="50%" valign="top">
-
-#### ➕ More on GitHub
-Experiments, notes and projects in progress. New work is added as I ship it.
-
-[↗ View all repositories](https://github.com/Karunpoojari7?tab=repositories)
-
-</td>
-</tr>
-</table>
-
----
-
-## `04 // My technology toolkit`
 
 <div align="center">
 
-**Languages & Development**<br/>
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css" alt="Languages"/>
+`▼ TAP A CARD TO OPEN THE PROJECT ▼`
 
-**Frameworks**<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,spring,fastapi,flask,tailwind" alt="Frameworks"/>
-
-**Databases & Tools**<br/>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,docker,git,github,vscode" alt="Databases and tools"/>
-
-**Systems**<br/>
-<img src="https://skillicons.dev/icons?i=kali,linux,bash,windows" alt="Systems"/>
-
-**Security Tools**<br/>
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
-<img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/>
-<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
-<img src="https://img.shields.io/badge/OWASP_ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP ZAP"/>
-<img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit"/>
+<a href="https://github.com/Karunpoojari7?tab=repositories"><img src="./assets/project-01.svg" width="49%" alt="Post-Quantum Secure File Vault"/></a>
+<a href="https://github.com/Karunpoojari7/Bayora_Sec"><img src="./assets/project-02.svg" width="49%" alt="Bayora: AI Safety Testing"/></a>
+<a href="https://github.com/Karunpoojari7/Soc-Analyst-Journey"><img src="./assets/project-03.svg" width="49%" alt="SOC Analyst Journey"/></a>
+<a href="https://github.com/Karunpoojari7?tab=repositories"><img src="./assets/project-04.svg" width="49%" alt="Insight AI"/></a>
+<a href="https://github.com/Karunpoojari7?tab=repositories"><img src="./assets/project-05.svg" width="49%" alt="GMU Connect 2.0"/></a>
+<a href="https://github.com/Karunpoojari7?tab=repositories"><img src="./assets/project-more.svg" width="49%" alt="More on GitHub"/></a>
 
 </div>
-
-<sub>Tools listed are ones I have used or am actively learning. They do not imply expert-level proficiency in every item.</sub>
-
----
 
 ## `05 // What I'm learning next`
 
