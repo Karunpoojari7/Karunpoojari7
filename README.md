@@ -80,74 +80,87 @@ tshark -r capture.pcap -Y "quic"
 
 ## 03 // Featured Projects
 
-*Selected work across cybersecurity, AI and software engineering.*
+<p><i>Building practical solutions across cybersecurity, AI and software engineering.</i></p>
 
 <details>
-<summary><b>01 · Bayora</b> — AI Security & Zero-Trust Infrastructure</summary>
+<summary><b>01 · BAYORA</b> &nbsp; <code>AI SECURITY</code> &nbsp; Zero-Trust Infrastructure</summary>
 
-Zero-trust infrastructure for controlled AI security testing, with separate Red Team, Target LLM and Blue Team sandboxes.
+**Overview**
 
-**Stack:** `FastAPI` `React` `Docker`
+Controlled AI security testing with isolated Red Team, Target LLM and Blue Team environments.
 
-**[View Repository](PASTE_EXISTING_BAYORA_REPO_URL)**
+**Technology:** `FastAPI` `React` `Docker`
+
+**Focus:** AI Security · Zero Trust · Security Testing
+
+[Explore Repository →](YOUR_BAYORA_REPO_URL)
 
 </details>
 
 <details>
-<summary><b>02 · NetWatch.AI</b> — Intelligent Network Monitoring</summary>
+<summary><b>02 · NETWATCH.AI</b> &nbsp; <code>NETWORK SECURITY</code> &nbsp; Intelligent Monitoring</summary>
 
-Full-stack monitoring platform with SNMP polling, ML anomaly detection and a real-time dashboard.
+**Overview**
 
-**Stack:** `Python` `FastAPI` `React` `PostgreSQL`
+Network monitoring with SNMP polling, ML anomaly detection and real-time visualization.
 
-**[View Repository](PASTE_EXISTING_NETWATCH_REPO_URL)**
+**Technology:** `Python` `FastAPI` `React` `PostgreSQL`
 
-</details>
-
-<details>
-<summary><b>03 · SOC Analyst Journey</b> — Security Operations & Network Forensics</summary>
-
-Hands-on cybersecurity learning journey featuring packet analysis, command references and investigation reports.
-
-**Stack:** `TShark` `PCAP` `PowerShell`
-
-**[View Repository](PASTE_EXISTING_SOC_REPO_URL)**
+[Explore Repository →](YOUR_NETWATCH_REPO_URL)
 
 </details>
 
 <details>
-<summary><b>04 · Post-Quantum Secure File Vault</b> — Applied Cryptography</summary>
+<summary><b>03 · SOC ANALYST JOURNEY</b> &nbsp; <code>CYBERSECURITY</code> &nbsp; Network Forensics</summary>
 
-Security-focused file storage project exploring post-quantum cryptography concepts.
+**Overview**
 
-**Stack:** `Python` `Cryptography` `Post-Quantum`
+Practical SOC training featuring packet analysis, investigation reports and security labs.
 
-**[View Project](PASTE_EXISTING_PROJECT_URL)**
+**Technology:** `TShark` `PCAP` `PowerShell`
 
-</details>
-
-<details>
-<summary><b>05 · Insight AI</b> — AI-Powered Analytics</summary>
-
-AI-powered analytics chatbot and dashboard concept for exploring data using natural language.
-
-**Stack:** `AI` `Analytics`
-
-**[View Project](PASTE_EXISTING_PROJECT_URL)**
+[Explore Repository →](https://github.com/Karunpoojari7/Soc-Analyst-Journey)
 
 </details>
 
 <details>
-<summary><b>06 · GMU Connect 2.0</b> — Student Mobile Application</summary>
+<summary><b>04 · POST-QUANTUM SECURE FILE VAULT</b> &nbsp; <code>CRYPTOGRAPHY</code></summary>
 
-Student-focused application with academic APIs, authentication and a React Native + TypeScript foundation.
+**Overview**
 
-**Stack:** `React Native` `TypeScript`
+Exploring secure file storage and post-quantum cryptography concepts.
 
-**[View Repository](PASTE_EXISTING_GMU_REPO_URL)**
+**Technology:** `Cryptography` `Post-Quantum`
+
+[Explore Project →](YOUR_PROJECT_URL)
 
 </details>
 
+<details>
+<summary><b>05 · INSIGHT AI</b> &nbsp; <code>ARTIFICIAL INTELLIGENCE</code></summary>
+
+**Overview**
+
+AI-powered analytics chatbot and natural-language data exploration.
+
+**Technology:** `AI` `Analytics`
+
+[Explore Project →](YOUR_PROJECT_URL)
+
+</details>
+
+<details>
+<summary><b>06 · GMU CONNECT 2.0</b> &nbsp; <code>MOBILE DEVELOPMENT</code></summary>
+
+**Overview**
+
+Student-focused mobile application with academic APIs and authentication.
+
+**Technology:** `React Native` `TypeScript`
+
+[Explore Repository →](YOUR_GMU_REPO_URL)
+
+</details>
 ---
 
 ## `04 // My technology toolkit`
