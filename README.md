@@ -1,4 +1,4 @@
- <!-- KARUN H G | CYBERSECURITY × SHINOBI PORTFOLIO -->
+<!-- KARUN H G | CYBERSECURITY PORTFOLIO -->
 
 <div align="center">
 
@@ -6,15 +6,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3200&pause=1000&color=00FF9C&center=true&vCenter=true&width=700&height=38&lines=root%40karun-lab%3A~%24+whoami;Karun+H+G+%7C+MCA+Student;Observe.+Investigate.+Validate.+Secure.;Discipline.+Strategy.+Perseverance." alt="Animated terminal"/>
-
-<br/>
-
-🍃 **忍道 — SHINOBI MINDSET**
-
-`DISCIPLINE` &nbsp; • &nbsp; `STRATEGY` &nbsp; • &nbsp; `PERSEVERANCE`
-
-*The Will of Fire — Learn. Adapt. Protect.*
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3200&pause=1000&color=00FF9C&center=true&vCenter=true&width=700&height=38&lines=root%40karun-lab%3A~%24+whoami;Karun+H+G+%7C+MCA+Student;Cybersecurity+%7C+Software+Development+%7C+AI+Security;Observe.+Investigate.+Validate.+Secure." alt="Animated terminal"/>
 
 <br/>
 
@@ -22,35 +14,43 @@
 ![Focus](https://img.shields.io/badge/FOCUS-SOC_%7C_DFIR_%7C_AI_SECURITY-080D12?style=for-the-badge&labelColor=00ff9c)
 ![Location](https://img.shields.io/badge/BASE-BENGALURU%2C_INDIA-080D12?style=for-the-badge&labelColor=00ff9c)
 
+<br/>
+
+[**About**](#01--about) &nbsp;•&nbsp;
+[**Security Operations**](#02--security-operations) &nbsp;•&nbsp;
+[**Projects**](#03--featured-projects) &nbsp;•&nbsp;
+[**Skills**](#04--technical-skills--tools) &nbsp;•&nbsp;
+[**Roadmap**](#05--security-roadmap) &nbsp;•&nbsp;
+[**Connect**](#06--connect)
+
 </div>
 
 ---
 
-## `01 // SYSTEM IDENTITY`
+## `01 // ABOUT`
 
-<div align="center">
+```bash
+root@karun-lab:~$ cat profile.json
+```
 
-`root@karun-lab:~$ ./initialize_profile.sh`
+```json
+{
+  "name": "Karun H G",
+  "education": "MCA Student",
+  "roles": ["Cybersecurity Learner", "Software Developer", "Aspiring AI Security Engineer"],
+  "current_focus": ["SOC Operations", "Network Forensics (TShark / PCAP)", "DNS Recon", "AI Security"],
+  "lab": "Kali Linux and isolated practice environments",
+  "workflow": "Observe -> Investigate -> Validate -> Document -> Improve",
+  "goal": "Security Engineering / SOC / AI Security roles",
+  "open_to": ["Internships", "Collaboration", "Mentorship", "CTF teams"]
+}
+```
 
-<img src="./assets/Neon System Identity Dashboard.png" width="100%" alt="Karun H G System Identity Terminal Dashboard"/>
+I'm an MCA student, cybersecurity learner and software developer interested in how systems work, how vulnerabilities emerge, and how technology can be made more secure. My interests span offensive security, defensive security, network forensics, applied cryptography, post-quantum cryptography and AI security.
 
-</div>
-
-### WHO AM I?
-
-I'm **Karun H G**, an MCA student, cybersecurity learner and software developer interested in understanding how systems work, how vulnerabilities emerge, and how technology can be made more secure.
-
-My interests span offensive security, defensive security, network forensics, applied cryptography, post-quantum cryptography and AI security.
-
-**Current mission:** Build practical projects, investigate security concepts, strengthen technical skills and document what I learn.
+**Current mission:** build practical projects, investigate security concepts, strengthen technical skills and document what I learn.
 
 > **Ethical boundary:** All offensive security testing is performed only on systems I own or have explicit permission to test.
-
-<div align="center">
-
-🍃 *A shinobi observes before acting. A security researcher investigates before concluding.*
-
-</div>
 
 ---
 
@@ -58,7 +58,7 @@ My interests span offensive security, defensive security, network forensics, app
 
 <div align="center">
 
-<img src="./assets/Neon Cybersecurity Tri-Panel Banner.png" width="100%" alt="Red Team, Blue Team and AI Security Dashboard"/>
+<img src="./assets/Neon Cybersecurity Tri-Panel Banner.png" width="100%" alt="Red Team, Blue Team and AI Security overview"/>
 
 </div>
 
@@ -68,7 +68,7 @@ My interests span offensive security, defensive security, network forensics, app
 
 <h3 align="center">🔴 RED TEAM</h3>
 <p align="center"><sub>OFFENSIVE SECURITY</sub></p>
-<p align="center"><i>Sharingan mindset — Observe the attack surface. Anticipate weaknesses.</i></p>
+<p align="center"><i>Understand the attack surface. Anticipate weaknesses.</i></p>
 
 <ul>
 <li>Reconnaissance and enumeration</li>
@@ -88,7 +88,7 @@ My interests span offensive security, defensive security, network forensics, app
 
 <h3 align="center">🔵 BLUE TEAM</h3>
 <p align="center"><sub>DEFENSIVE SECURITY</sub></p>
-<p align="center"><i>Guardian mindset — Detect threats. Protect the network.</i></p>
+<p align="center"><i>Detect threats. Investigate incidents. Protect the network.</i></p>
 
 <ul>
 <li>SOC operations and alert triage</li>
@@ -109,7 +109,7 @@ My interests span offensive security, defensive security, network forensics, app
 
 <h3 align="center">🟢 AI SECURITY</h3>
 <p align="center"><sub>AI SAFETY & EVALUATION</sub></p>
-<p align="center"><i>Chakra control — Evaluate intelligent systems. Build safer AI.</i></p>
+<p align="center"><i>Evaluate intelligent systems. Build safer AI.</i></p>
 
 <ul>
 <li>AI red teaming and prompt-injection testing</li>
@@ -135,6 +135,28 @@ My interests span offensive security, defensive security, network forensics, app
 
 </div>
 
+<details>
+<summary><b>📡 Sample investigation workflow (TShark)</b></summary>
+<br/>
+
+```bash
+# Protocol hierarchy of a capture
+tshark -r capture.pcap -q -z io,phs
+
+# Extract TLS Server Name Indication (SNI)
+tshark -r capture.pcap -Y "tls.handshake.type == 1" \
+       -T fields -e ip.src -e tls.handshake.extensions_server_name
+
+# Review DNS queries
+tshark -r capture.pcap -Y "dns.flags.response == 0" \
+       -T fields -e frame.time -e ip.src -e dns.qry.name
+
+# Identify QUIC traffic
+tshark -r capture.pcap -Y "quic"
+```
+
+</details>
+
 ---
 
 ## `03 // FEATURED PROJECTS`
@@ -145,7 +167,7 @@ My interests span offensive security, defensive security, network forensics, app
 
 </div>
 
-### 🔐 POST-QUANTUM SECURE FILE VAULT
+### 🔐 Post-Quantum Secure File Vault
 
 <sub>CRYPTOGRAPHY / SECURE STORAGE</sub>
 
@@ -155,11 +177,9 @@ Security-focused file storage exploring post-quantum cryptography concepts.
 ![PQC](https://img.shields.io/badge/POST--QUANTUM-00C987?style=flat-square&labelColor=080D12)
 ![Security](https://img.shields.io/badge/SECURITY-00C987?style=flat-square&labelColor=080D12)
 
-<sub>Repository link to be added when available.</sub>
-
 ---
 
-### 🛡️ BAYORA — AI SAFETY TESTING
+### 🛡️ Bayora — AI Safety Testing
 
 <sub>AI SECURITY / RED TEAM × BLUE TEAM</sub>
 
@@ -169,11 +189,11 @@ Infrastructure for controlled AI security testing and defensive evaluation.
 ![Red Team](https://img.shields.io/badge/RED_TEAM-FF5252?style=flat-square&labelColor=080D12)
 ![Evaluation](https://img.shields.io/badge/EVALUATION-00C987?style=flat-square&labelColor=080D12)
 
-[**↗ EXPLORE REPOSITORY**](https://github.com/Karunpoojari7/Bayora_Sec)
+[**↗ Explore repository**](https://github.com/Karunpoojari7/Bayora_Sec)
 
 ---
 
-### 🔵 SOC ANALYST JOURNEY
+### 🔵 SOC Analyst Journey
 
 <sub>NETWORK FORENSICS / DEFENSIVE SECURITY</sub>
 
@@ -183,11 +203,11 @@ Practical learning through packet analysis, command references and investigation
 ![PCAP](https://img.shields.io/badge/PCAP-2389E8?style=flat-square&labelColor=080D12)
 ![DFIR](https://img.shields.io/badge/DFIR-2389E8?style=flat-square&labelColor=080D12)
 
-[**↗ EXPLORE REPOSITORY**](https://github.com/Karunpoojari7/Soc-Analyst-Journey)
+[**↗ Explore repository**](https://github.com/Karunpoojari7/Soc-Analyst-Journey)
 
 ---
 
-### 📊 INSIGHT AI
+### 📊 Insight AI
 
 <sub>AI / DATA ANALYTICS</sub>
 
@@ -197,61 +217,79 @@ AI-powered analytics chatbot and dashboard concept for exploring data in natural
 ![Analytics](https://img.shields.io/badge/ANALYTICS-00C987?style=flat-square&labelColor=080D12)
 ![Dashboard](https://img.shields.io/badge/DASHBOARD-00C987?style=flat-square&labelColor=080D12)
 
-<sub>Repository link to be added when available.</sub>
-
 ---
 
-### 🎓 GMU CONNECT 2.0
+### 🎓 GMU Connect 2.0
 
 <sub>MOBILE DEVELOPMENT / STUDENT TECHNOLOGY</sub>
 
 Student-focused mobile application initiative involving academic APIs, authentication and a React Native + TypeScript foundation.
 
+> Project status varies: some projects are ongoing or exploratory. Visit each repository for details.
+
 ---
 
 ## `04 // TECHNICAL SKILLS & TOOLS`
 
+<details open>
+<summary><b>💻 Programming & Development</b></summary>
+<br/>
+
 <div align="center">
 
-### PROGRAMMING & DEVELOPMENT
-
-<a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="60" alt="Python"/></a>
-<a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" width="60" alt="Java"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" width="60" alt="HTML"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" width="60" alt="CSS"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" width="60" alt="JavaScript"/></a>
-<a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" width="60" alt="TypeScript"/></a>
-<a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" width="60" alt="React"/></a>
-<a href="https://nextjs.org/"><img src="https://skillicons.dev/icons?i=nextjs" width="60" alt="Next.js"/></a>
-<a href="https://spring.io/projects/spring-boot"><img src="https://skillicons.dev/icons?i=spring" width="60" alt="Spring Boot"/></a>
-<a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" width="60" alt="FastAPI"/></a>
-<a href="https://flask.palletsprojects.com/"><img src="https://skillicons.dev/icons?i=flask" width="60" alt="Flask"/></a>
-<a href="https://tailwindcss.com/"><img src="https://skillicons.dev/icons?i=tailwind" width="60" alt="Tailwind CSS"/></a>
-
-<br/>
-
-### DATABASES & DEVELOPMENT TOOLS
-
-<a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" width="60" alt="MySQL"/></a>
-<a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" width="60" alt="PostgreSQL"/></a>
-<a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb" width="60" alt="MongoDB"/></a>
-<a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" width="60" alt="Docker"/></a>
-<a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="60" alt="Git"/></a>
-<a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" width="60" alt="GitHub"/></a>
-<a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" width="60" alt="VS Code"/></a>
-
-<br/>
-
-### SYSTEMS & ENVIRONMENTS
-
-<a href="https://www.kali.org/"><img src="https://skillicons.dev/icons?i=kali" width="60" alt="Kali Linux"/></a>
-<a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux" width="60" alt="Linux"/></a>
-<a href="https://www.gnu.org/software/bash/"><img src="https://skillicons.dev/icons?i=bash" width="60" alt="Bash"/></a>
-<a href="https://www.microsoft.com/windows"><img src="https://skillicons.dev/icons?i=windows" width="60" alt="Windows"/></a>
+<a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="55" alt="Python"/></a>
+<a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" width="55" alt="Java"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" width="55" alt="HTML"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" width="55" alt="CSS"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" width="55" alt="JavaScript"/></a>
+<a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" width="55" alt="TypeScript"/></a>
+<a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" width="55" alt="React"/></a>
+<a href="https://nextjs.org/"><img src="https://skillicons.dev/icons?i=nextjs" width="55" alt="Next.js"/></a>
+<a href="https://spring.io/projects/spring-boot"><img src="https://skillicons.dev/icons?i=spring" width="55" alt="Spring Boot"/></a>
+<a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" width="55" alt="FastAPI"/></a>
+<a href="https://flask.palletsprojects.com/"><img src="https://skillicons.dev/icons?i=flask" width="55" alt="Flask"/></a>
+<a href="https://tailwindcss.com/"><img src="https://skillicons.dev/icons?i=tailwind" width="55" alt="Tailwind CSS"/></a>
 
 </div>
 
-### CYBERSECURITY TOOLS
+</details>
+
+<details open>
+<summary><b>🗄️ Databases & Development Tools</b></summary>
+<br/>
+
+<div align="center">
+
+<a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" width="55" alt="MySQL"/></a>
+<a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" width="55" alt="PostgreSQL"/></a>
+<a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb" width="55" alt="MongoDB"/></a>
+<a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" width="55" alt="Docker"/></a>
+<a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="55" alt="Git"/></a>
+<a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" width="55" alt="GitHub"/></a>
+<a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" width="55" alt="VS Code"/></a>
+
+</div>
+
+</details>
+
+<details open>
+<summary><b>🖥️ Systems & Environments</b></summary>
+<br/>
+
+<div align="center">
+
+<a href="https://www.kali.org/"><img src="https://skillicons.dev/icons?i=kali" width="55" alt="Kali Linux"/></a>
+<a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux" width="55" alt="Linux"/></a>
+<a href="https://www.gnu.org/software/bash/"><img src="https://skillicons.dev/icons?i=bash" width="55" alt="Bash"/></a>
+<a href="https://www.microsoft.com/windows"><img src="https://skillicons.dev/icons?i=windows" width="55" alt="Windows"/></a>
+
+</div>
+
+</details>
+
+<details open>
+<summary><b>🔐 Cybersecurity Tools & Interests</b></summary>
+<br/>
 
 <div align="center">
 
@@ -262,11 +300,7 @@ Student-focused mobile application initiative involving academic APIs, authentic
 <a href="https://www.metasploit.com/"><img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit"/></a>
 <a href="https://www.tcpdump.org/"><img src="https://img.shields.io/badge/tcpdump-00A67D?style=for-the-badge&labelColor=080D12" alt="tcpdump"/></a>
 
-</div>
-
-### CYBERSECURITY INTERESTS
-
-<div align="center">
+<br/>
 
 ![Network Security](https://img.shields.io/badge/NETWORK_SECURITY-0969DA?style=for-the-badge&labelColor=0969DA)
 ![Web Application Security](https://img.shields.io/badge/WEB_APPLICATION_SECURITY-0969DA?style=for-the-badge&labelColor=0969DA)
@@ -277,23 +311,23 @@ Student-focused mobile application initiative involving academic APIs, authentic
 
 </div>
 
+</details>
+
 <sub>Technologies listed are tools I have worked with or am actively learning. They do not imply expert-level proficiency in every item.</sub>
 
 ---
 
-## `05 // SECURITY RESEARCH ROADMAP`
+## `05 // SECURITY ROADMAP`
 
 <div align="center">
 
 `RESEARCH → EXPERIMENT → DOCUMENT → IMPROVE`
 
-*Progress through practice, patience and persistence.*
-
 </div>
 
-### 🟢 PHASE 01 — FOUNDATION
-
-<sub>COMPLETED LEARNING</sub>
+<details open>
+<summary><b>🟢 Phase 01 — Foundation (completed)</b></summary>
+<br/>
 
 - [x] Network traffic analysis
 - [x] TShark and PCAP fundamentals
@@ -301,11 +335,11 @@ Student-focused mobile application initiative involving academic APIs, authentic
 - [x] DNS reconnaissance
 - [x] Linux fundamentals
 
----
+</details>
 
-### 🔵 PHASE 02 — ACTIVE INVESTIGATION
-
-<sub>CURRENT LEARNING TARGETS</sub>
+<details open>
+<summary><b>🔵 Phase 02 — Active Investigation (in progress)</b></summary>
+<br/>
 
 - [ ] SOC detection engineering
 - [ ] SIEM lab practice
@@ -313,11 +347,11 @@ Student-focused mobile application initiative involving academic APIs, authentic
 - [ ] Web application security
 - [ ] CTF practice — TryHackMe / Hack The Box
 
----
+</details>
 
-### 🟣 PHASE 03 — NEXT TARGETS
-
-<sub>FUTURE EXPLORATION</sub>
+<details>
+<summary><b>🟣 Phase 03 — Next Targets (planned)</b></summary>
+<br/>
 
 - [ ] Security+ / BTL1 / eJPT preparation
 - [ ] AI red teaming
@@ -325,31 +359,11 @@ Student-focused mobile application initiative involving academic APIs, authentic
 - [ ] Advanced incident response
 - [ ] Applied cryptography research
 
-<div align="center">
-
-![Foundation](https://img.shields.io/badge/FOUNDATION-COMPLETED-00C987?style=flat-square)
-![Active](https://img.shields.io/badge/ACTIVE-IN_PROGRESS-2389E8?style=flat-square)
-![Planned](https://img.shields.io/badge/NEXT-PLANNED-8957E5?style=flat-square)
-
-</div>
+</details>
 
 ---
 
-## `06 // GITHUB ACTIVITY`
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Karunpoojari7&theme=dark&background=080D12&ring=00ff9c&fire=ff5252&currStreakLabel=00ff9c&border=164B3C" alt="GitHub Contribution Streak"/>
-
-<br/>
-
-[**↗ VIEW GITHUB PROFILE & CONTRIBUTIONS**](https://github.com/Karunpoojari7)
-
-</div>
-
----
-
-## `07 // CONNECT`
+## `06 // CONNECT`
 
 <div align="center">
 
@@ -368,16 +382,8 @@ Student-focused mobile application initiative involving academic APIs, authentic
 
 <br/><br/>
 
-🍃 **THE SHINOBI CODE**
-
-*Strength is built through discipline. Knowledge grows through curiosity. Protection begins with responsibility.*
-
-`忍 NINDŌ` — Never stop learning. Never stop improving.
-
-<br/>
-
 **OBSERVE / INVESTIGATE / VALIDATE / SECURE**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080D12,45:003B2A,100:00FF9C&height=150&section=footer&animation=fadeIn" width="100%" alt="Green cyber footer wave"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080D12,45:003B2A,100:00FF9C&height=150&section=footer&animation=fadeIn" width="100%" alt="Footer wave"/>
 
 </div>
