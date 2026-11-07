@@ -126,61 +126,45 @@ Selected builds that show how I practice security and software development. Some
 
 ---
 
-## `05 // What I'm learning next`
+## `05 // Learning roadmap`
 
-My roadmap is built on one loop: **research, experiment, document, improve**. Foundations are done, and I'm now working through hands-on investigation before moving into AI security and certifications.
+Where I am and what comes next, grouped by progress.
 
-```bash
-root@karun-lab:~$ ./progress.sh
-
-DEFENSIVE TRACK    [████████░░░░░░]  57%   4 done · 2 active · 1 planned
-OFFENSIVE & AI     [██░░░░░░░░░░░░]  14%   1 done · 3 active · 3 planned
-─────────────────────────────────────────────────────────────────
-OVERALL            [█████░░░░░░░░░]  36%   5 of 14 milestones complete
-```
-
-```mermaid
-flowchart LR
-    A["<b>PHASE 01</b><br/>Foundation<br/>COMPLETED"] --> B["<b>PHASE 02</b><br/>Active Investigation<br/>IN PROGRESS"] --> C["<b>PHASE 03</b><br/>Next Targets<br/>PLANNED"]
-    classDef done fill:#0b3d2e,stroke:#00ff9c,stroke-width:2px,color:#e6edf3
-    classDef active fill:#0b2a4a,stroke:#2389e8,stroke-width:2px,color:#e6edf3
-    classDef plan fill:#1c2128,stroke:#8b949e,stroke-width:2px,stroke-dasharray:5 5,color:#e6edf3
-    class A done
-    class B active
-    class C plan
-```
-
-<details open>
-<summary><b>🔵&nbsp; DEFENSIVE TRACK</b> &nbsp;·&nbsp; <sub>SOC, forensics, detection</sub></summary>
-<br/>
-
-| Skill | Status | Phase |
-|:--|:--:|:--:|
-| Network traffic analysis | ![DONE](https://img.shields.io/badge/DONE-00C987?style=flat-square&labelColor=080D12) | `01 Foundation` |
-| TShark and PCAP fundamentals | ![DONE](https://img.shields.io/badge/DONE-00C987?style=flat-square&labelColor=080D12) | `01 Foundation` |
-| TLS / SNI / QUIC inspection | ![DONE](https://img.shields.io/badge/DONE-00C987?style=flat-square&labelColor=080D12) | `01 Foundation` |
-| DNS reconnaissance | ![DONE](https://img.shields.io/badge/DONE-00C987?style=flat-square&labelColor=080D12) | `01 Foundation` |
-| SOC detection engineering | ![IN PROGRESS](https://img.shields.io/badge/IN_PROGRESS-2389E8?style=flat-square&labelColor=080D12) | `02 Investigation` |
-| SIEM lab practice | ![IN PROGRESS](https://img.shields.io/badge/IN_PROGRESS-2389E8?style=flat-square&labelColor=080D12) | `02 Investigation` |
-| Advanced incident response | ![PLANNED](https://img.shields.io/badge/PLANNED-8B949E?style=flat-square&labelColor=080D12) | `03 Next targets` |
-
-</details>
-
-<details open>
-<summary><b>🔴&nbsp; OFFENSIVE &amp; AI TRACK</b> &nbsp;·&nbsp; <sub>web security, CTFs, AI red teaming, certifications</sub></summary>
-<br/>
-
-| Skill | Status | Phase |
-|:--|:--:|:--:|
-| Linux fundamentals | ![DONE](https://img.shields.io/badge/DONE-00C987?style=flat-square&labelColor=080D12) | `01 Foundation` |
-| OWASP Top 10 | ![IN PROGRESS](https://img.shields.io/badge/IN_PROGRESS-2389E8?style=flat-square&labelColor=080D12) | `02 Investigation` |
-| Web application security | ![IN PROGRESS](https://img.shields.io/badge/IN_PROGRESS-2389E8?style=flat-square&labelColor=080D12) | `02 Investigation` |
-| CTF practice (TryHackMe / Hack The Box) | ![IN PROGRESS](https://img.shields.io/badge/IN_PROGRESS-2389E8?style=flat-square&labelColor=080D12) | `02 Investigation` |
-| AI red teaming and LLM security research | ![PLANNED](https://img.shields.io/badge/PLANNED-8B949E?style=flat-square&labelColor=080D12) | `03 Next targets` |
-| Applied cryptography research | ![PLANNED](https://img.shields.io/badge/PLANNED-8B949E?style=flat-square&labelColor=080D12) | `03 Next targets` |
-| Security+ / BTL1 / eJPT preparation | ![PLANNED](https://img.shields.io/badge/PLANNED-8B949E?style=flat-square&labelColor=080D12) | `03 Next targets` |
-
-</details>
+<table>
+<tr>
+<th width="33%">✅ Completed</th>
+<th width="33%">🔄 In progress</th>
+<th width="33%">🎯 Planned</th>
+</tr>
+<tr>
+<td valign="top">
+<ul>
+<li>Network traffic analysis</li>
+<li>TShark and PCAP fundamentals</li>
+<li>TLS / SNI / QUIC inspection</li>
+<li>DNS reconnaissance</li>
+<li>Linux fundamentals</li>
+</ul>
+</td>
+<td valign="top">
+<ul>
+<li>SOC detection engineering</li>
+<li>SIEM lab practice</li>
+<li>OWASP Top 10</li>
+<li>Web application security</li>
+<li>CTF practice (TryHackMe / Hack The Box)</li>
+</ul>
+</td>
+<td valign="top">
+<ul>
+<li>Advanced incident response</li>
+<li>AI red teaming and LLM security research</li>
+<li>Applied cryptography research</li>
+<li>Security+ / BTL1 / eJPT preparation</li>
+</ul>
+</td>
+</tr>
+</table>
 
 ---
 
