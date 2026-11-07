@@ -214,25 +214,16 @@ flowchart LR
 
 <div align="center">
 
-`root@karun-lab:~$ ./connect.sh`
-
-I'm happy to talk about security, SOC work, CTFs, AI safety, internships or collaboration.
+<img src="./assets/connect-card.svg" width="100%" alt="Open to opportunities: internships, collaboration, mentorship and CTF teams"/>
 
 <br/>
 
-<a href="https://in.linkedin.com/in/karun-poojari-uiux">
-<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="https://github.com/Karunpoojari7?tab=repositories">
-<img src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-181717?style=for-the-badge&logo=github&logoColor=00ff9c" alt="Repositories"/>
-</a>
+<a href="https://in.linkedin.com/in/karun-poojari-uiux"><img src="./assets/btn-linkedin.svg" width="320" alt="Connect with me on LinkedIn"/></a>
+&nbsp;&nbsp;
+<a href="https://github.com/Karunpoojari7?tab=repositories"><img src="./assets/btn-github.svg" width="320" alt="Explore my GitHub repositories"/></a>
 
-<br/><br/>
+<br/>
 
-*Curiosity starts the experiment. Security turns it into something useful.*
-
-**OBSERVE / INVESTIGATE / VALIDATE / SECURE**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080D12,45:003B2A,100:00FF9C&height=120&section=footer" width="100%" alt="Footer wave"/>
+<img src="./assets/footer-pulse.svg" width="100%" alt="Observe, Investigate, Validate, Secure"/>
 
 </div>
