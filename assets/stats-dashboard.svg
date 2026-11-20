@@ -10,7 +10,7 @@
 <circle cx="24" cy="19" r="6" fill="#FF5F56"/><circle cx="44" cy="19" r="6" fill="#FFBD2E"/><circle cx="64" cy="19" r="6" fill="#27C93F"/>
 <text x="450" y="24" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="12" fill="#7FA89A">karun@karun-lab: ~/github-activity</text>
 <circle cx="669.2" cy="19" r="3.5" fill="#00FF9C"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
-<text x="878" y="23" text-anchor="end" font-family="'Courier New', Consolas, monospace" font-size="10" fill="#00FF9C" letter-spacing="1">UPDATED 2026-11-20 14:53 UTC</text>
+<text x="878" y="23" text-anchor="end" font-family="'Courier New', Consolas, monospace" font-size="10" fill="#00FF9C" letter-spacing="1">UPDATED 2026-11-20 23:39 UTC</text>
 <rect x="18" y="54" width="204" height="88" rx="8" fill="#0A1218" stroke="#00FF9C" stroke-opacity="0.4"/>
 <rect x="18" y="54" width="4" height="88" rx="2" fill="#00FF9C"/>
 <text x="36" y="78" font-family="'Courier New', Consolas, monospace" font-size="10" fill="#00FF9C" letter-spacing="1.6">TOTAL CONTRIBUTIONS</text>
@@ -224,21 +224,21 @@
 <rect x="554" y="158" width="328" height="214" rx="8" fill="#0A1218" stroke="#2389E8" stroke-opacity="0.3"/>
 <text x="574" y="184" font-family="'Courier New', Consolas, monospace" font-size="10" fill="#2389E8" letter-spacing="1.6">TOP LANGUAGES  /  BY CODE SIZE</text>
 <text x="574" y="212" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#C9D4DC">Python</text>
-<text x="862" y="212" text-anchor="end" font-family="'Courier New', Consolas, monospace" font-size="11" fill="#9FB3C8">80.1%</text>
+<text x="862" y="212" text-anchor="end" font-family="'Courier New', Consolas, monospace" font-size="11" fill="#9FB3C8">79.8%</text>
 <rect x="574" y="219" width="288" height="5" rx="2.5" fill="#142029"/>
-<rect x="574" y="219" width="230.8" height="5" rx="2.5" fill="#3572A5"/>
+<rect x="574" y="219" width="229.9" height="5" rx="2.5" fill="#3572A5"/>
 <text x="574" y="241" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#C9D4DC">TypeScript</text>
-<text x="862" y="241" text-anchor="end" font-family="'Courier New', Consolas, monospace" font-size="11" fill="#9FB3C8">10.0%</text>
+<text x="862" y="241" text-anchor="end" font-family="'Courier New', Consolas, monospace" font-size="11" fill="#9FB3C8">10.2%</text>
 <rect x="574" y="248" width="288" height="5" rx="2.5" fill="#142029"/>
-<rect x="574" y="248" width="28.8" height="5" rx="2.5" fill="#3178c6"/>
+<rect x="574" y="248" width="29.4" height="5" rx="2.5" fill="#3178c6"/>
 <text x="574" y="270" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#C9D4DC">JavaScript</text>
-<text x="862" y="270" text-anchor="end" font-family="'Courier New', Consolas, monospace" font-size="11" fill="#9FB3C8">3.7%</text>
+<text x="862" y="270" text-anchor="end" font-family="'Courier New', Consolas, monospace" font-size="11" fill="#9FB3C8">3.9%</text>
 <rect x="574" y="277" width="288" height="5" rx="2.5" fill="#142029"/>
-<rect x="574" y="277" width="10.7" height="5" rx="2.5" fill="#f1e05a"/>
+<rect x="574" y="277" width="11.1" height="5" rx="2.5" fill="#f1e05a"/>
 <text x="574" y="299" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#C9D4DC">Java</text>
 <text x="862" y="299" text-anchor="end" font-family="'Courier New', Consolas, monospace" font-size="11" fill="#9FB3C8">1.9%</text>
 <rect x="574" y="306" width="288" height="5" rx="2.5" fill="#142029"/>
-<rect x="574" y="306" width="5.4" height="5" rx="2.5" fill="#b07219"/>
+<rect x="574" y="306" width="5.3" height="5" rx="2.5" fill="#b07219"/>
 <text x="574" y="328" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#C9D4DC">HTML</text>
 <text x="862" y="328" text-anchor="end" font-family="'Courier New', Consolas, monospace" font-size="11" fill="#9FB3C8">1.3%</text>
 <rect x="574" y="335" width="288" height="5" rx="2.5" fill="#142029"/>
